@@ -16,8 +16,6 @@ return new class extends Migration
             $table->foreignId('family_id')->constrained()->cascadeOnDelete();
             $table->foreignId('person_id')->constrained()->cascadeOnDelete();
             $table->enum('role', ['head', 'spouse', 'child', 'parent', 'executor', 'other'])->default('other');
-            $table->boolean('is_primary')->default(false);
-
             $table->timestamps();
             $table->unique(['family_id', 'person_id']);
         });

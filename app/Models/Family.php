@@ -11,7 +11,7 @@ class Family extends Model
     use HasFactory;
 
     protected $fillable = [
-        'internal_notes',
+        'notes',
     ];
 
     /**
@@ -20,13 +20,26 @@ class Family extends Model
      */
     public function getNameAttribute(): string
     {
-        // Find the primary member for this family
-        $primaryMember = $this->members()->where('is_primary', true)->first();
+        try {
+            // Eager load the head member and their person relationship to prevent N+1 queries
+            $headMember = $this->members->where('role', 'head')->first();
 
-        if ($primaryMember) {
-            return "The {$primaryMember->person->last_name} Family";
+            // Check if we found a head member AND that member has a person relation loaded
+            if ($headMember && $headMember->relationLoaded('person') && $headMember->person) {
+                return "The {$headMember->person->last_name} Family";
+            }
+
+            // If no head member found, try to get any member's last name as fallback
+            $anyMember = $this->members->first();
+            if ($anyMember && $anyMember->relationLoaded('person') && $anyMember->person) {
+                return "The {$anyMember->person->last_name} Family";
+            }
+        } catch (\Exception $e) {
+            // Log the error for debugging, but don't break the application
+            //Log::warning("Error getting family name for family #{$this->id}: " . $e->getMessage());
         }
 
+        // Ultimate fallback
         return "Family #{$this->id}";
     }
 
@@ -37,9 +50,16 @@ class Family extends Model
         return $this->hasMany(FamilyMember::class);
     }
 
-    public function contactCards(): HasMany
+    public function getHeadOfFamilyAttribute(): ?Person
     {
-        // We will create a ContactCard model later
-        return $this->hasMany(ContactCard::class);
+        $headMember = $this->members()->where('role', 'head')->first();
+        return $headMember ? $headMember->person : null;
     }
+
+    // public function contactCards(): HasMany
+    // {
+    //     // We will create a ContactCard model later
+    //     return $this->hasMany(ContactCard::class);
+    // }
+
 }

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Person extends Model
 {
@@ -21,4 +22,12 @@ class Person extends Model
         'date_of_birth' => 'date',
         'date_of_death' => 'date',
     ];
+
+    public function families(): BelongsToMany
+    {
+        return $this->belongsToMany(Family::class, 'family_members')
+            ->using(FamilyMember::class)
+            ->withPivot('role', 'is_primary')
+            ->withTimestamps();
+    }
 }

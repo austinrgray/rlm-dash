@@ -13,7 +13,6 @@ class FamilyMember extends Model
         'family_id',
         'person_id',
         'role',
-        'is_primary',
     ];
 
     public function family(): BelongsTo

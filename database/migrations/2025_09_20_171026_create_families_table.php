@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('families', function (Blueprint $table) {
             $table->id();
-            $table->text('internal_notes')->nullable();
+            $table->text('notes')->nullable();
             $table->timestamps();
         });
     }
