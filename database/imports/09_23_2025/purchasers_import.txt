@@ -1,0 +1,1843 @@
+PurchaserID	RegID	OldPurchaserID	OwnerLastName	OwnerFirstName	OwnerAddress1	OwnerAddress2	OwnerCity	OwnerState	OwnerZip	OwnerPhone	OwnerEmail	TermsID
+427344	1147	0	Graves	Floyd & Florence								0
+427345	1147	0	Graves	Opal								0
+427348	1147	0	Gray	Remel								0
+427349	1147	0	Gray	James E								0
+427350	1147	0	Gray	Emmett								0
+427440	1147	0	Gray	Harry								0
+427441	1147	0	Williams	Thomas								0
+427442	1147	0	Green	Nancy & Billy								0
+427443	1147	0	Greene	Leona								0
+427444	1147	0	Greene	Jeff								0
+427445	1147	0	Greer	Lester								0
+427446	1147	0	Gregory, Sr.	James								0
+427447	1147	0	Gresham	George								0
+427449	1147	0	Griffith	Lewis A (L.A.)								0
+427452	1147	0	Jenison	Zella								0
+427453	1147	0	Griffith	Ralph R								0
+427454	1147	0	Griwach	Bonnie								0
+427455	1147	0	Grobe	Floy								0
+427456	1147	0	Grobe	Lester								0
+427457	1147	0	Grohs	Ruby								0
+427458	1147	0	Grohs	Elmer								0
+427459	1147	0	Grohs	Elmer								0
+427460	1147	0	Grohs	Elmer								0
+427461	1147	0	Gross	Beverly								0
+427462	1147	0	Gross	Bessie M								0
+427463	1147	0	Gross, Sr.	Joseph								0
+427464	1147	0	Gross	Howard								0
+427465	1147	0	Gruder	Iva W								0
+427466	1147	0	Gruetzemacher	Patricia Ann								0
+427467	1147	0	Guy	Danny L								0
+427468	1147	0	Guyott, Sr.	Frank								0
+427762	1147	0	Hale	Edna Florence								0
+427763	1147	0	Haney	Stanley								0
+427764	1147	0	Harness, Sr.	John								0
+427765	1147	0	Harris	Clayton								0
+427766	1147	0	Shell	M. W.								0
+427767	1147	0	Hatridge	William & Bertha								0
+427768	1147	0	Hazlett	Louise								0
+470189	1147	0	Richardson	Geraldine								0
+470190	1147	0	Nachtsheim	Juanita								0
+470191	1147	0	Nash	David								0
+470192	1147	0	Naucke	Rebecca								0
+470193	1147	0	Nausley	Donald								0
+470194	1147	0	Nausley	Lewis Wayne								0
+470195	1147	0	Nausley	William Lloyd								0
+470196	1147	0	Neal	Richard & Lois								0
+470197	1147	0	Neel	Ross A								0
+470198	1147	0	Neely	James L								0
+470199	1147	0	Jones	Betty								0
+470200	1147	0	Neier	Raymond								0
+470201	1147	0	Nelson	Edith Jane								0
+470202	1147	0	Nelson	James W								0
+470203	1147	0	Nelson	J. W.								0
+470204	1147	0	Raley	W E								0
+470205	1147	0	Nelson	Rose I								0
+470206	1147	0	Nengel	Norman (Jack)								0
+470208	1147	0	Newton	James M								0
+470209	1147	0	Dollar	Virginia								0
+470210	1147	0	Nichols	Shirley								0
+470211	1147	0	Nickel	Lorraine A								0
+470212	1147	0	Nicholson	William								0
+470213	1147	0	Nissen	James								0
+470214	1147	0	Nixon	Marvin								0
+470250	1147	0	Williams	Terry & Carol								0
+470251	1147	0	NOkes	Hershel								0
+470252	1147	0	Norris	Jerry								0
+470253	1147	0	Norris	Jerry								0
+470254	1147	0	Norton	Lester J								0
+470255	1147	0	Null	Dennis D								0
+470256	1147	0	Null	Elvin								0
+493890	1147	0	Conway	Family of Rachel								0
+493891	1147	0	Wyatt	Joyce								0
+493892	1147	0	Brown	Magnolia								0
+493893	1147	0	Patterson	Ellen								0
+493894	1147	0	Patterson	Nancy & Mark								0
+493895	1147	0	Parra	Crystal								0
+493896	1147	0	Rhives	James								0
+493897	1147	0	Caby	Suzanne								0
+493898	1147	0	Thomas	Michael								0
+493899	1147	0	Burdell	Diane								0
+493900	1147	0	Marshall	Jerald & Theresa								0
+493901	1147	0	Funeral Home	Mahn								0
+493902	1147	0	Francis	Ben & Penny								0
+493904	1147	0	McAnally	Donald & Elaine								0
+493905	1147	0	Lewis	Coby								0
+493906	1147	0	Lewis	Linda								0
+493907	1147	0	Nelson	James & Marie								0
+493908	1147	0	Littrell	Deanna								0
+493909	1147	0	Kalbfleish	Richard ,Sr., & Frances								0
+493910	1147	0	Glasgow	David & Mary								0
+493912	1147	0	Staggs	Janet								0
+493913	1147	0	Funeral Home	Mahn								0
+493914	1147	0	Axtetter	Nancy								0
+493915	1147	0	Axley	Robert								0
+493916	1147	0	Gorman	Family of Tina								0
+493917	1147	0	Rudloff	Betty								0
+493918	1147	0	Woodland	Family								0
+470257	1147	0	Null	Ervin E								0
+470258	1147	0	Nutter	Walter E								0
+470300	1147	0	Laiben	Octa								0
+470301	1147	0	Mahurin	Diana Marie								0
+470302	1147	0	Maher	Robert L								0
+470303	1147	0	Mangos	Atanas C								0
+470304	1147	0	Mangin	Mary F								0
+470306	1147	0	Mangin	Leo J								0
+470307	1147	0	Mack	Mae M								0
+470308	1147	0	Madison	Robert G								0
+470309	1147	0	Madison	Eleanor								0
+470310	1147	0	Rehm	Earl								0
+470311	1147	0	Poulizos	Helen								0
+470312	1147	0	Manns	Charles E								0
+470379	1147	0	Maupin	Hilda								0
+470380	1147	0	Maurice	Leona & Floyd								0
+470381	1147	0	McComack	Orville & Rose								0
+470382	1147	0	Smith	Annie								0
+470383	1147	0	Mathews	Dolores								0
+470384	1147	0	Mathis	Mary Agnes								0
+470385	1147	0	Mathews	Adele								0
+470386	1147	0	Matlock	Charles								0
+470387	1147	0	Matlock	Floyd								0
+470388	1147	0	Mattingly	Raymond H								0
+470416	1147	0	Maupin	Ray								0
+470418	1147	0	Maurice	Alexander								0
+470313	1147	0	Maddox	Alice E								0
+470337	1147	0	Maness	Steve								0
+470338	1147	0	Magre	Frank P								0
+470340	1147	0	Magre	John L								0
+470342	1147	0	Magre	Alice								0
+470343	1147	0	Mains	John Robert								0
+470344	1147	0	Mallette	Miriam								0
+470345	1147	0	Malusky	Blanche								0
+470346	1147	0	Mattingly	Sydney								0
+470347	1147	0	Maness	Ray								0
+470348	1147	0	Roberts	W								0
+470349	1147	0	Marler	Kevin								0
+470350	1147	0	Marler	Carolyn L								0
+470351	1147	0	Marler	Verbel								0
+470352	1147	0	Martin	Robert								0
+470354	1147	0	Martin	Joseph Paul								0
+470355	1147	0	Martin, Sr.	Earl R								0
+470356	1147	0	Martin	Vicki								0
+470357	1147	0	Martin	Lowell A								0
+470358	1147	0	Martin	Mildred "Mickey"								0
+454881	1147	0	LaBrier	William A								0
+454882	1147	0	Labrot	Marie								0
+454885	1147	0	Laburay	Thomas								0
+454886	1147	0	LaFloure	W.C.								0
+454887	1147	0	Lalk	Robert W								0
+454888	1147	0	Lalumondier	Corinne								0
+454889	1147	0	Lalumondier	Veronica								0
+454890	1147	0	Lambert	Byron Adam								0
+454891	1147	0	LaMure	Marcia								0
+454924	1147	0	Vinyard	Lilburn R								0
+454925	1147	0	Lancaster	Henry L								0
+454926	1147	0	Landes	Marjorie								0
+454927	1147	0	Lanham	Ernest W								0
+454928	1147	0	Lange	Betty S								0
+454929	1147	0	Langelier	Roberta E								0
+454930	1147	0	LaPlant	Thomas								0
+454931	1147	0	Nelson	Edith								0
+494552	1147	0	Fox, Jr.	Raymond								0
+494553	1147	0	Dietrich-Mothershead	Funeral Home of								0
+494554	1147	0	Livingston	Family of Ella Mae								0
+494555	1147	0	Wiley	Family of Dakota								0
+494556	1147	0	Knobloch	Stanley & Darlene								0
+494557	1147	0	Brockmeier	Allan								0
+494558	1147	0	Reando	Brenda								0
+494559	1147	0	Boyd	Gloria								0
+494560	1147	0	Boyd	Gloria								0
+494561	1147	0	Gazaway	Terry								0
+494562	1147	0	Sanders	Don								0
+494563	1147	0	Pruneau	Family of Betty Jo								0
+494564	1147	0	Brown	Kevin & Kelly								0
+494565	1147	0	Powell	Charles & Ethel								0
+494566	1147	0	Blum	Earnest & Bobbi								0
+494567	1147	0	Warren	Family of John								0
+494568	1147	0	Simon	Family of Paul								0
+494569	1147	0	Smith	Family of Roberta								0
+494570	1147	0	Mangus	Arnold & Donna								0
+494571	1147	0	Begemann	Family of Timothy								0
+494574	1147	0	Valadez	Veronica								0
+494575	1147	0	Hill	Lacey								0
+494576	1147	0	Hill	James & Connie								0
+494577	1147	0	Holtz	Jennifer								0
+494578	1147	0	Grillo	John & Frances								0
+494579	1147	0	Fallert	Dennis & Rosalie								0
+494580	1147	0	Hulsey	Tracie								0
+494581	1147	0	Haley	Russell & Sandra								0
+494582	1147	0	Radford	Randall								0
+494583	1147	0	Stansfield	Rhonda & Richard								0
+494584	1147	0	Cole	Shirley								0
+494586	1147	0	Bradshaw	Scott								0
+494587	1147	0	Wente	Cheryl								0
+456217	1147	0	Leibach	John H								0
+456220	1147	0	Leslie	Frank R								0
+456222	1147	0	Leutzinger	George & Pauline								0
+456226	1147	0	Liles	David K								0
+456229	1147	0	Lill	Henry L								0
+471396	1147	0	Medley	Coeen								0
+471397	1147	0	Medlin, Sr.	Joseph H								0
+471398	1147	0	Meeks	Maudie								0
+471399	1147	0	Meese	Betty								0
+471400	1147	0	Mehler	Opal								0
+471401	1147	0	Merseal	Dolores								0
+471402	1147	0	Sherman	J.C.								0
+471403	1147	0	Meyers	Mrs. G.F.								0
+471404	1147	0	Meyers	Gladys								0
+471405	1147	0	Holman	Jerry								0
+471406	1147	0	Meese	Harry L								0
+471407	1147	0	Meinz	Melvin								0
+471408	1147	0	Melton	Mrs. V.W. Brown								0
+471409	1147	0	Menzel	Byrd								0
+471410	1147	0	Mead,Sr.	Richard								0
+471411	1147	0	Meyer	Philip E								0
+471412	1147	0	Meyers	Roscoe								0
+471413	1147	0	Meyer	Noel A								0
+471414	1147	0	Meyers	Joan								0
+470420	1147	0	LaRose	Mort								0
+470421	1147	0	Maus	Dollie								0
+470422	1147	0	Mattison	Emma J								0
+470423	1147	0	Max	David P								0
+429129	1147	0	Halbert	Louis & Elizabeth								0
+429130	1147	0	Hampton	William Noel								0
+429131	1147	0	Harris	J.M.								0
+429132	1147	0	Hacker	Oswald M								0
+429133	1147	0	Hagan	Joseph O								0
+429134	1147	0	Hahn	Helen								0
+429135	1147	0	Halbrook	Cleo F								0
+429136	1147	0	Hale	Eunice								0
+429137	1147	0	Hall	Paul								0
+429170	1147	0	Hamby	Andrew N								0
+429171	1147	0	Hamby	Eric								0
+429172	1147	0	Hampton	Jessie								0
+429175	1147	0	Hampel	Inez H								0
+429180	1147	0	Haney	L.								0
+429181	1147	0	Haney	L.								0
+429182	1147	0	Elda Haney	Dorothy Wilson								0
+429184	1147	0	Elda Haney	Dorothy Wilson								0
+429186	1147	0	Haney	Nolan W								0
+429187	1147	0	Hanna	Harold H								0
+429188	1147	0	Hanna	Harold H.								0
+429189	1147	0	Hanneman	Clarence E								0
+429190	1147	0	Hanson	Samuel B								0
+429191	1147	0	Hargrove	Clelia B								0
+429192	1147	0	Harmon	Joseph								0
+429193	1147	0	Harnagel	Christine								0
+429194	1147	0	Harnagel	Ralph & Ruth								0
+429195	1147	0	Hassler	Betty I								0
+429249	1147	0	Hooker	Greg & Kim								0
+429250	1147	0	Edwards	Deborah	2100 Burley Rd		Festus	MO	63028	314.308.5470		0
+429251	1147	0	Soetebier	Virginia & Joseph								0
+429252	1147	0	James	Travis								0
+429459	1147	0	Englehardt	Michelle								0
+482612	1147	0	Miller	Ruby A								0
+482613	1147	0	Miller	Frances								0
+482614	1147	0	Miller	William T & Harry								0
+482615	1147	0	Mira	Jim G								0
+482617	1147	0	Mira	James O								0
+482539	1147	0	Miller	W.T. & Harry								0
+482540	1147	0	Miller	Virgil F.								0
+482541	1147	0	MIra	Lawrence T								0
+482542	1147	0	Miller	A. Loretta								0
+482543	1147	0	Miller	Claude W								0
+482544	1147	0	Roux	Robert								0
+482545	1147	0	Miller	Frank J & Ethel								0
+482546	1147	0	Miller	Irene E								0
+482547	1147	0	Miller	Margaret E								0
+482548	1147	0	Miller	William M								0
+482549	1147	0	Miller	Benjamin F								0
+482550	1147	0	Pope	Irene								0
+482551	1147	0	Miller	Cordus E								0
+482552	1147	0	Miller	Lillian								0
+482553	1147	0	Miller	William E								0
+482554	1147	0	Miller	Vernon								0
+482555	1147	0	Miller	Everett Stanley								0
+482556	1147	0	Miller	Harry J								0
+482557	1147	0	Miller	Harry J								0
+482558	1147	0	Miller	John W								0
+482559	1147	0	Miller	Mamie R								0
+482560	1147	0	Miller	Mildred I								0
+482561	1147	0	Miller	Mildred I								0
+482562	1147	0	Miller	Nellie E								0
+429716	1147	0	Harris	Walter & Mary	814 Huber St		Festus	MO	63028			0
+429827	1147	0	Harris	Marion & Manda								0
+429828	1147	0	Hastings	Robert								0
+429829	1147	0	Hayes	Leola								0
+429830	1147	0	Hayes	Firmin Elmer								0
+429832	1147	0	Hayes	Sallie								0
+429833	1147	0	Montgomery	M								0
+429834	1147	0	Ruff	Nettie								0
+429835	1147	0	Hardin	Izetta								0
+429836	1147	0	Harmon	Betty								0
+429837	1147	0	Hartman-Carr	Darla Deanne								0
+429838	1147	0	Hartman	Joseph Dean								0
+429839	1147	0	Thurman	Leona								0
+429840	1147	0	Heck	Everett & Gladys								0
+429841	1147	0	Heddell	James Cleveland								0
+429842	1147	0	Heddell	William R								0
+429843	1147	0	Hein	Bertha								0
+429845	1147	0	Henderson	Juanita								0
+429846	1147	0	Henderson	J.A. & Ruby								0
+429848	1147	0	Thomas	Albert								0
+429849	1147	0	Henson	Kathleen								0
+429850	1147	0	Friedmeyer	Bonetta								0
+429851	1147	0	Henson	Terri								0
+429853	1147	0	Heob	Martha P								0
+429854	1147	0	Heob	Martha P								0
+429855	1147	0	Herrell	Anna Lee								0
+429856	1147	0	Hess	Minnetta								0
+429857	1147	0	Hewitt	Wallace								0
+429858	1147	0	Hewitt	Mary Mabelle								0
+429859	1147	0	Higgins	Marian								0
+429860	1147	0	Higgins	Ruby								0
+429861	1147	0	Hildebran	Rhoda & F.H.								0
+429862	1147	0	Hill	David & Alice								0
+430009	1147	0	Hodge	Bertha								0
+430010	1147	0	Hoffman	Benjamin W								0
+430011	1147	0	Hoffman	John Edgar								0
+430012	1147	0	Moody	James D								0
+430013	1147	0	Hoffman	Lillian E								0
+430014	1147	0	Hoffman	Jane								0
+430015	1147	0	Hoffman	Robert C								0
+430016	1147	0	Hoffman	Roy W								0
+430017	1147	0	Pruneau	E. A.								0
+430021	1147	0	Hogan	Ivy L								0
+430022	1147	0	Holdinghausen	Ernest F								0
+430023	1147	0	Holke	Della C								0
+430024	1147	0	Holke	Grace								0
+430025	1147	0	Holladay	Frank E								0
+430026	1147	0	Morrison	Roy W								0
+430028	1147	0	Holman	Ruby C								0
+430029	1147	0	Gassman	Erwin								0
+430030	1147	0	Hook	Doris								0
+430031	1147	0	Hook	Mrs. Glen M (Bernadine)								0
+430032	1147	0	Hook	Larry W & Becky								0
+430033	1147	0	Hooker	James L								0
+430034	1147	0	Hooper	Marilyn R								0
+430035	1147	0	Hopkins	Luther								0
+430036	1147	0	Horn	Arnold								0
+430037	1147	0	Horn	Cornelia								0
+430039	1147	0	Horn	Lucian C Neil								0
+430043	1147	0	Porter	Clarence								0
+430118	1147	0	Houghton	Joseph A								0
+430119	1147	0	Houghton	Bransby B								0
+429911	1147	0	Heob	Ida								0
+429912	1147	0	Herbert, Sr.	Rolla E.								0
+429914	1147	0	Long	Christine								0
+429915	1147	0	Heberer	Philip A								0
+429917	1147	0	LaRose	Chance								0
+429918	1147	0	Hill	Cora L								0
+429919	1147	0	Hill	Leona C								0
+429920	1147	0	Hill	Milton J								0
+429921	1147	0	Hill	Grace L								0
+429922	1147	0	Hill	Grace L								0
+429923	1147	0	Hill	Clyde								0
+429924	1147	0	Hill	Kathryn								0
+429925	1147	0	Hinchey	N. Joyce								0
+429926	1147	0	Sloan	Mrs. Howard								0
+429927	1147	0	Hipes,Sr.	Robert								0
+429928	1147	0	Hipes	Lorraine								0
+429929	1147	0	Hipes	Ricky								0
+429930	1147	0	Hipes	Levera								0
+430120	1147	0	House	William C								0
+430121	1147	0	Howard	Floyd T								0
+430122	1147	0	Jones	George								0
+430123	1147	0	Howell	Lee								0
+430124	1147	0	Houghton	Charles								0
+430125	1147	0	Hoyer	Otto H								0
+430126	1147	0	Howard	George W								0
+430127	1147	0	Howard	Hester								0
+430128	1147	0	Stoney	Sandra								0
+430129	1147	0	Howe	Corwin								0
+430130	1147	0	Tesreau	Wilma								0
+430168	1147	0	Hubbard	Osgood E								0
+430169	1147	0	Huber	George								0
+430170	1147	0	Huber	Charles Rudolf								0
+430171	1147	0	Huddleston	Wallace								0
+430172	1147	0	Hudson	Percy J								0
+430173	1147	0	Hudson	Peggy								0
+430174	1147	0	Hughes, SR.	Raymond								0
+430175	1147	0	Guyott, Sr.	Frank X								0
+430176	1147	0	Hulvey	William W								0
+430177	1147	0	Hulvey	Cryethia L								0
+430178	1147	0	Huber	Louis H								0
+430179	1147	0	Hughes	Lindell W								0
+430180	1147	0	Hummelsheim, Sr.	Fred R.								0
+430181	1147	0	Humes	Betty E								0
+430182	1147	0	Reeder	J Glen								0
+430183	1147	0	Gettys	George A								0
+430184	1147	0	Huber	Hubert E								0
+430185	1147	0	Hurley	Thekla M								0
+430186	1147	0	Hutcheson	William L								0
+430187	1147	0	Kemp Estate	Coltus								0
+430330	1147	0	Hutchinson	Ada C								0
+482618	1147	0	Mitchell	Leora E								0
+482619	1147	0	Mitchener	George								0
+482621	1147	0	Michael	Lola M								0
+482623	1147	0	Michael	Robert E								0
+482624	1147	0	Michael	Lilly								0
+482625	1147	0	Miles	Geneva								0
+482790	1147	0	Dept	Mo State Hwy								0
+482792	1147	0	Morris	John A								0
+482793	1147	0	Montgomery	Paul								0
+482795	1147	0	Moore	Lottie B								0
+482796	1147	0	Moore	Edward W								0
+482798	1147	0	Moore	Elonzo J								0
+482800	1147	0	Montgomery	Otto Carl								0
+482806	1147	0	Moore	Amie L								0
+482807	1147	0	Pickens	Gloria								0
+482808	1147	0	Moore	Henrietta E								0
+482809	1147	0	Moore	Hannah								0
+482811	1147	0	Moore	Clarence J								0
+482814	1147	0	Moore	Oma O								0
+482816	1147	0	Moore	Eugene								0
+482817	1147	0	Moore	Richard B								0
+482820	1147	0	Moore	Jay								0
+482822	1147	0	Moore	Anna								0
+482824	1147	0	May	Mrs. Harold								0
+482868	1147	0	Morrow, Jr.	Robert								0
+482869	1147	0	Morice	Bertha H								0
+482870	1147	0	Morice	Judith								0
+482871	1147	0	Morice	Bertha								0
+482872	1147	0	Morris	Elizabeth L								0
+482873	1147	0	Morrison	Jim								0
+482874	1147	0	Morton	Ruth S								0
+482875	1147	0	Moser	Virginia								0
+482876	1147	0	Morris	Virgil A								0
+482878	1147	0	Montgomery	Albert N								0
+482905	1147	0	Murry	Alonzo								0
+482906	1147	0	Murry	Irene								0
+482907	1147	0	Mueller	Alvin H								0
+482908	1147	0	Mueller	William H								0
+482909	1147	0	Murphy	Bonnie								0
+482911	1147	0	Mussler	Charles								0
+482915	1147	0	Grohs	Joe								0
+482916	1147	0	Murrill	D.G.								0
+482917	1147	0	LaBrier	Al								0
+482919	1147	0	Myers	Lena J								0
+482922	1147	0	Myler	Roy								0
+483190	1147	0	O'Brien	Emma								0
+483193	1147	0	O'Brien	Dolores								0
+483194	1147	0	Oesterle	Clara E								0
+483195	1147	0	Meyer	Carol								0
+483197	1147	0	Oldham	Thomas William & Ethel								0
+483199	1147	0	Olinger	Ed								0
+483201	1147	0	Oliver	Alfred								0
+483202	1147	0	Oliver	Rose Ann								0
+483203	1147	0	Oliver	Esther								0
+483204	1147	0	Olney	Edna M								0
+483205	1147	0	Hess	Phillip								0
+483206	1147	0	Overstreet, Sr.	William								0
+483207	1147	0	Owens	Agnes M								0
+483208	1147	0	Owen	William I								0
+483209	1147	0	Owen	William I								0
+483210	1147	0	Owen	Bertha								0
+483212	1147	0	O'Sullivan	Helen								0
+430658	1147	0	Ibaviosa	Catherine								0
+430659	1147	0	Idem	Lillian								0
+430661	1147	0	Moore	Semon								0
+430662	1147	0	Ivy	Roscoe								0
+430663	1147	0	Jackson	Floyd & Robert								0
+430664	1147	0	Jacobsen	John								0
+430665	1147	0	Cooper	Levi								0
+430666	1147	0	Jackson	Ada G								0
+430667	1147	0	Jackson	Floyd J								0
+430671	1147	0	Jackson	Joseph P								0
+430672	1147	0	Jackson	Merraine W								0
+430674	1147	0	James	Floyd & Nada								0
+430677	1147	0	Jarnagin	Charles & Winnifred								0
+430682	1147	0	Jasper	John J								0
+430686	1147	0	Jay	Howard & M. Elizabeth								0
+430692	1147	0	Jay	Nicholas								0
+430695	1147	0	Jenni	Jesse & Ruth								0
+430696	1147	0	Jester	Virgil H								0
+435512	1147	0	Johnson	Orville Lee								0
+435513	1147	0	JOhnson	Sandra								0
+435514	1147	0	Seidl	Mrs. John								0
+435515	1147	0	Johnson	Phillip								0
+435516	1147	0	Sorden	Rick								0
+435517	1147	0	Govero	Lawrence								0
+435518	1147	0	Johnson	Lucy Alice								0
+435519	1147	0	Johnson	Dorothy								0
+435520	1147	0	Rudisaile	Helen								0
+435521	1147	0	Johnson	Tileta Z								0
+435522	1147	0	Johnson	Mabel								0
+435523	1147	0	Johnson	Joseph P								0
+435525	1147	0	Johnson	Charlie G								0
+435690	1147	0	Johnston	Frank								0
+435691	1147	0	Johnston	Raymond R								0
+435696	1147	0	Johnston	Morris & Viola								0
+435796	1147	0	Kassel, Sr.	Glenn P								0
+435797	1147	0	Johnston	Louis								0
+435798	1147	0	Johnston	Grace								0
+435799	1147	0	Johnston	Dale								0
+435800	1147	0	Jones	Arthur Thornton "A.T."								0
+435801	1147	0	Jones	Walter								0
+435802	1147	0	Jones	Taylor & Jessie Mae								0
+435803	1147	0	Jones	Edward Frank								0
+435804	1147	0	Jones	Sidney & Jeanette								0
+435805	1147	0	Judah	Patsy R								0
+435806	1147	0	Judy	John & Edith								0
+435807	1147	0	Junker	Chester								0
+436565	1147	0	Kasten	Alma								0
+436567	1147	0	Kaufmann	Edward J								0
+436568	1147	0	Kaufmann	Edward L								0
+436569	1147	0	Ivy	Courtland								0
+436570	1147	0	Keathley	Claude H								0
+436571	1147	0	Keller	Delores E								0
+436572	1147	0	Keller	Catherine								0
+436573	1147	0	Kelley	Alma B								0
+436574	1147	0	Kelly	Everett G								0
+430332	1147	0	Herrington, Sr.	Ron								0
+430333	1147	0	Higgins	Tok Cha								0
+430334	1147	0	Higgins	Ruth O								0
+451350	1147	0	Kemerer	Doris								0
+451351	1147	0	Kemp	Alfred & Melba								0
+451352	1147	0	Kemp	Coultas								0
+451353	1147	0	Kempfer	Penny								0
+451354	1147	0	Kennedy	Walter P								0
+451355	1147	0	Kennedy	Lora J								0
+451356	1147	0	Kennedy	Helen M								0
+451365	1147	0	Kennedy	Roy C								0
+451371	1147	0	Keney	Peggy A								0
+451374	1147	0	LaBrier	Shirley								0
+451386	1147	0	Kentch	Eugene								0
+451391	1147	0	Kerkoski	LLoyd								0
+451399	1147	0	Keys	Curtis E								0
+451401	1147	0	DeRousse	Ruthanne								0
+451408	1147	0	Keyton	Earl								0
+451414	1147	0	Keyton	Howard J								0
+453429	1147	0	Sparks	Sam								0
+453430	1147	0	Kiepe	Milton								0
+453431	1147	0	Killian	Charles A								0
+453432	1147	0	Killian	Charles R								0
+453433	1147	0	Kim	GangJa								0
+453434	1147	0	Johnston	Bernice								0
+453435	1147	0	Kirby	Edna								0
+453436	1147	0	Kizer	J.B.								0
+453437	1147	0	Klaus	Nelson								0
+453438	1147	0	Kleppstattel	Mary & John								0
+453439	1147	0	Kleppstattel	Mary & John								0
+453440	1147	0	Dobbs	Joseph C								0
+453441	1147	0	Kline	Seymour								0
+453442	1147	0	Klugman	Evelyn								0
+453443	1147	0	Klumb	William								0
+454030	1147	0	Knobloch	Anthony								0
+454033	1147	0	Koch	Jerome D. "JD"								0
+454034	1147	0	Koehler	Mildred								0
+454035	1147	0	Koehler	Willa J								0
+454036	1147	0	Koeneker	Daisy								0
+454037	1147	0	Koehler	Nadine								0
+454038	1147	0	Kohler	Bennie F								0
+454039	1147	0	Kohn	Kathleen L								0
+454040	1147	0	Krause	Evelyn								0
+454041	1147	0	Krull	Charles A								0
+454042	1147	0	Kurtz	Charles & Essie								0
+454043	1147	0	Kusmich	Hazel N								0
+454044	1147	0	Kyle	Elbert								0
+454045	1147	0	Kyle	Mitchell								0
+454047	1147	0	Yaeger	Linda								0
+454049	1147	0	Kyle	Idelle								0
+454051	1147	0	Kyle, Sr.	Vernon M								0
+454099	1147	0	LaBrayer	Bertha								0
+454100	1147	0	LaBrier	William A								0
+454935	1147	0	LaPlant	Edward								0
+454936	1147	0	LaPlant	James E								0
+455468	1147	0	Laratta	Joseph & Evelyn								0
+456081	1147	0	Govero	Lawrence								0
+456082	1147	0	Wehner	Frank								0
+456083	1147	0	Sutton	Floyd								0
+456084	1147	0	LaRose	William & Frieda								0
+456085	1147	0	LaRose	Emma								0
+456086	1147	0	Lundt	Lydia								0
+456087	1147	0	LaRue	Larry								0
+456138	1147	0	Shobel	George								0
+456139	1147	0	Lashley	Alden								0
+456140	1147	0	Ennis	A.S.								0
+456141	1147	0	Ennis estate	Ada								0
+456142	1147	0	Lashley	Leonard								0
+456143	1147	0	Lauer	Arthur								0
+456144	1147	0	Lawrence	Ida								0
+456145	1147	0	Ledbetter	James & Hallie								0
+456146	1147	0	Lednick	Doris								0
+456147	1147	0	Lednick	Michael								0
+456148	1147	0	Porter	James								0
+456150	1147	0	Lee	Silas								0
+456151	1147	0	Lee	Rayma								0
+456153	1147	0	Lee	Charles								0
+456154	1147	0	Lee	Marsha								0
+456155	1147	0	Lee	Dorsey								0
+456156	1147	0	Leftridge	Homer								0
+456157	1147	0	Lenhoff	Evelyn								0
+456233	1147	0	Lilly	Philip A								0
+456237	1147	0	Linder	Samuel								0
+456238	1147	0	Lindner	Walter O								0
+456239	1147	0	Lindley	Robert & Beulah								0
+456240	1147	0	Linzemann, Sr.	Albert H								0
+456241	1147	0	Smith	Grace M								0
+456242	1147	0	Livingston	Geretta								0
+456244	1147	0	Livingston	Irene								0
+456245	1147	0	Duke	Kenneth								0
+456247	1147	0	Linzemann	Wilma								0
+456248	1147	0	Litton	Isabel								0
+456615	1147	0	Loesch	Modena								0
+456616	1147	0	Loessl -Cooksey	Helga M								0
+456617	1147	0	Logan	Goldie								0
+456618	1147	0	Loge	Larry								0
+456619	1147	0	Lovelace	Nettie								0
+456620	1147	0	Pap	Harry								0
+456621	1147	0	Lowry	Murrel & India								0
+456622	1147	0	Lovvorn	William Harvey								0
+456623	1147	0	Logsdon	B. Dollie & Hettie								0
+456624	1147	0	Long	David P								0
+456626	1147	0	Lowther	Martha								0
+456627	1147	0	Lucas	Eugene R.								0
+456628	1147	0	Lucas	Raymond								0
+456629	1147	0	Lucas	Roy R								0
+456631	1147	0	Lucas	Glenn								0
+456648	1147	0	Lucas	Elmer								0
+456649	1147	0	Lucas	J. Francis								0
+456650	1147	0	Lucas	Michael R								0
+456651	1147	0	Lucas	Stella								0
+456652	1147	0	Lucas	James C								0
+456670	1147	0	Lucas	Jesse Gover								0
+456673	1147	0	Lucas	Dewey								0
+456674	1147	0	Lucas	Lewis								0
+456750	1147	0	Lucas	Leroy								0
+489095	1147	0	Murray	Ralston								0
+489143	1147	0	Doza	Dave								0
+489144	1147	0	Rudloff	Mark & Cathy								0
+489161	1147	0	Foresyth	Charles & Betty								0
+489162	1147	0	Strother	Gale & Faye								0
+489163	1147	0	Leutzinger	George & Betty								0
+489164	1147	0	Neil	Gene & Louise								0
+489165	1147	0	Turner	Sherry								0
+489166	1147	0	Kirby	Bessie								0
+489167	1147	0	Laupp	Megan								0
+489168	1147	0	Yost	Mary								0
+489169	1147	0	Cross	Carol								0
+489170	1147	0	Lalumondier	Steve								0
+489171	1147	0	Elders	Juanita								0
+489172	1147	0	Marmon	Christopher								0
+491309	1147	0	Dowd	Larry & Nancy								0
+491311	1147	0	Dyle	Robert & Mary Lou								0
+491313	1147	0	Pearson	Cynthia								0
+491314	1147	0	Forir	Peggy								0
+491315	1147	0	Rorie	James & Fayann								0
+491316	1147	0	Harrison	Joan								0
+491319	1147	0	Heflin (Messer)	Joyce								0
+491320	1147	0	Kearns	Matt & Julie								0
+491321	1147	0	Kearns	Timothy & Victoria								0
+491324	1147	0	Hennemann	Mary								0
+491326	1147	0	Perry	Suzanne								0
+491327	1147	0	Sweeney	Lequeta								0
+491357	1147	0	Family	Bentrup								0
+491358	1147	0	Ficken	Dan & Frieda								0
+491359	1147	0	Ficken	Dan & Frieda								0
+491360	1147	0	Ficken	Dan & Frieda								0
+491361	1147	0	Peters	Charles								0
+491362	1147	0	Long	Lowell (Joe)								0
+491363	1147	0	Biles	Dawn								0
+491405	1147	0	Funeral Home	Vinyard			Festus	MO	63028			0
+491406	1147	0	Wynn	Carole								0
+491407	1147	0	Lowe	Judy								0
+491408	1147	0	Lowe	Judy								0
+491409	1147	0	Hartsell	Billy & Linda								0
+491410	1147	0	Pollard	Janet								0
+491411	1147	0	Sturdevant	Carol								0
+491412	1147	0	Robison	William								0
+491413	1147	0	Massa	Tony & Lisa								0
+491414	1147	0	Walton	Thomas								0
+491415	1147	0	Walton	Harold								0
+491417	1147	0	Schubert	Jeff								0
+491420	1147	0	Dinolfo	Kay								0
+491422	1147	0	O'Sullivan	Michael								0
+491437	1147	0	Salisbury	David L.								0
+491438	1147	0	Giedinghagen	Daniel								0
+491439	1147	0	Giedinghagen	Daniel								0
+491440	1147	0	Aubuchon	Vicki								0
+491441	1147	0	Reece	Larry								0
+491442	1147	0	Barbee	Cindy								0
+491443	1147	0	Decker	Robert & LaVerne								0
+491445	1147	0	Siebert	Kim & Diana								0
+491446	1147	0	Herbert	Patricia								0
+491511	1147	0	Page	Cecelia Marie								0
+491513	1147	0	Page	D.F.								0
+491515	1147	0	Page	Donald C								0
+491522	1147	0	Palmer	Aneva								0
+491523	1147	0	Palmer	Ida L								0
+491524	1147	0	Pappas	Harry								0
+491525	1147	0	Johnson	Minnetta								0
+491526	1147	0	Park	Stanley								0
+491527	1147	0	Parker	Evelyn								0
+491528	1147	0	Parks	Harold								0
+491529	1147	0	Partney	David								0
+491530	1147	0	Parr	Joyce								0
+491531	1147	0	Packer	Margaret								0
+491532	1147	0	Partney	Albert								0
+456932	1147	0	Lucas	William J								0
+456933	1147	0	Lupkey	Claude & Esther								0
+456963	1147	0	Lupkey	Harold & Hazel								0
+456964	1147	0	Lupkey	Homer & Wilma			Herculaneum	MO				0
+456965	1147	0	Luhn	Alta & Alma								0
+456966	1147	0	Luhn	Wilbert W								0
+456967	1147	0	Lundt	Lydia								0
+491587	1147	0	Partney	Elizabeth K								0
+491588	1147	0	Pashia	Katheryn M								0
+491589	1147	0	Pate	William J								0
+491590	1147	0	Patrick	Anna Marie								0
+491591	1147	0	Payne	Mamie S								0
+491592	1147	0	Patterson	Robert J								0
+491593	1147	0	Patterson	Woodrow								0
+491594	1147	0	Pease	Almorene								0
+491595	1147	0	Pedersen	Mildred								0
+491596	1147	0	Peebles	Harry H								0
+491597	1147	0	Peebles	Wayne								0
+491598	1147	0	Penn	Daniel								0
+491599	1147	0	Peredoe	Harold C								0
+491600	1147	0	Perry	Albert C								0
+491601	1147	0	Perry	Bernard L								0
+491603	1147	0	Perry	Irene B								0
+491604	1147	0	Perry	Myrtle C								0
+491605	1147	0	Walton	Walter								0
+491606	1147	0	Perryman	Donnell R								0
+491607	1147	0	Perryman	Phillip S & Delia								0
+491608	1147	0	Perryman	Elmer C & Viola								0
+491610	1147	0	Perryman	Marvin								0
+491611	1147	0	Perryman	William S								0
+491621	1147	0	Alexander	Trust of Preston								0
+491622	1147	0	Funeral Home	Mahn								0
+491623	1147	0	Reeves	Richard								0
+491624	1147	0	Bell	James & Opal								0
+491625	1147	0	Masters	Family of Adrian								0
+491253	1147	0	Funeral Home	Vinyard			Festus	MO	63028			0
+491254	1147	0	Kennedy	Charlene								0
+491255	1147	0	Moore	John & Cindy								0
+491256	1147	0	Lauber	Les & Cathy								0
+491257	1147	0	Roehrs	James								0
+491258	1147	0	Funeral Home	Vinyard								0
+491259	1147	0	Hawkins	Paul & Carla								0
+491260	1147	0	Rose	William E. Jr & Judith J								0
+491262	1147	0	Wildish	Rebecca								0
+491263	1147	0	Summers	Mary Lou								0
+491264	1147	0	Bouck	Daniel								0
+491265	1147	0	Cloninger	Ruby								0
+492301	1147	0	Funeral Home	Mahn								0
+492302	1147	0	Sullentrup	Family of Anna								0
+492303	1147	0	Goff	Debbie								0
+492304	1147	0	Beranek	David & Susan								0
+492306	1147	0	Reando	Theresa								0
+492307	1147	0	Baldwin, Sr.	Terry								0
+492369	1147	0	Eisenbeis	Richard & Donnie								0
+492370	1147	0	Myers	Everett & Denise								0
+492372	1147	0	Compton	Tim & Deborah								0
+492373	1147	0	Newby	Frances								0
+492374	1147	0	Funeral Home	Vinyard								0
+492375	1147	0	Courtois	Carl & Geneva								0
+492376	1147	0	Burnside	Roy & Barbara								0
+492377	1147	0	Parker	Josette								0
+492378	1147	0	Turner	Sherry								0
+492379	1147	0	Brandt	Gary & Jane								0
+492380	1147	0	Yount	Charles & Denise								0
+492381	1147	0	Graham	John H								0
+492383	1147	0	Shapiro	Linda								0
+492384	1147	0	Ivy	Ray & Sandra								0
+492385	1147	0	Lucas	Don R								0
+492387	1147	0	Dutton	Joe & Linda								0
+492419	1147	0	Peters	Grace M								0
+492420	1147	0	Peters	Lee H								0
+492421	1147	0	Phillips	Maurice R								0
+492422	1147	0	Peters	Warren								0
+492423	1147	0	Luke	Lee								0
+492424	1147	0	Hawn	Mrs. Stanford								0
+492425	1147	0	Pierce	Mabel E								0
+492426	1147	0	Pies	Bregetta								0
+492431	1147	0	Pinkley	Alberta								0
+492432	1147	0	Thomure	Robert								0
+492433	1147	0	Pirkey	James H								0
+492434	1147	0	Placht	William								0
+492549	1147	0	Poe	Donna								0
+492550	1147	0	Poggemeier	Cloa								0
+492551	1147	0										0
+492552	1147	0	Pogue	Thomas A								0
+492553	1147	0	Poindexter	Ella J								0
+492554	1147	0	Pippin	Patricia								0
+492555	1147	0	Porchey	Grace								0
+492556	1147	0	Polson	Charles E								0
+492557	1147	0	Pope	Betty								0
+492558	1147	0	Pope	Laura								0
+492559	1147	0	Pope	Nina Belle								0
+492561	1147	0	Porchey	Virgil								0
+492564	1147	0	Porchey	Viola								0
+492565	1147	0	Portell	Frank J & Ollie								0
+492788	1147	0	Porter	Henry & Lena								0
+492789	1147	0	Porter	Charles E & Edith								0
+492790	1147	0	Potter	Ruth B								0
+492791	1147	0	Roth	Clyde								0
+492830	1147	0	Prather	Francis Leroy								0
+492831	1147	0	Pratt	Alene A								0
+492832	1147	0	Wright	John								0
+492833	1147	0	Pratt	Charles								0
+492834	1147	0	Prichard	Olin & Velva								0
+492835	1147	0	Priest	Stella M								0
+492836	1147	0	Pritchett	Eugene								0
+492837	1147	0	Propst	Lester								0
+492838	1147	0	Propst	Martha								0
+492841	1147	0	Propst	Ezra								0
+492842	1147	0	Propst	Homer								0
+492851	1147	0	Pruneau	Wm. Ernest								0
+492852	1147	0	Pruneau	Ernest E								0
+492853	1147	0	Pryor	Carl								0
+492854	1147	0	Pursall	John & Hattie								0
+492855	1147	0	Pusateri	Vincent & Frances								0
+492856	1147	0	Pusateri	Dorothy								0
+492857	1147	0	Quilliam	Edward & Ellen								0
+492858	1147	0	Quint	Agnes								0
+419181	1147	0	Deevers	Daniel								0
+419182	1147	0	DeGeare	Byrl								0
+419183	1147	0	Degonia	Anna L								0
+419184	1147	0	Elliott	Henry								0
+419185	1147	0	Denney	Don								0
+419186	1147	0	Dennis	Donald Wesley (DW)								0
+419187	1147	0	Derickson	Nancy								0
+419188	1147	0	Derickson	Luther W & Verna								0
+419190	1147	0	DeRousse	Fred J								0
+419191	1147	0	DeRousse	Rebecca								0
+419192	1147	0	DeRousse	Shirley								0
+419193	1147	0	DeRousse Myers	RuthAnne								0
+419194	1147	0	DeRousse	Elsie								0
+419195	1147	0	Derque	Fred E								0
+419196	1147	0	Derque	Ida L								0
+419197	1147	0	Derque	Hilda F								0
+419198	1147	0	Roderique	Bernice								0
+419202	1147	0	Dietrich	Adam								0
+419203	1147	0	Dietz, Jr.	Fred L								0
+419204	1147	0	Dinger	Jacob								0
+493195	1147	0	Johnson	Donna								0
+493196	1147	0	McMahon	Robin								0
+493198	1147	0	Henning	Cherese								0
+493199	1147	0	Masters	Angie								0
+493509	1147	0	Strippgen	Heidi								0
+493510	1147	0	Reando	Jerry & Barbara								0
+493511	1147	0	Davis	Stanley Poole								0
+493512	1147	0	Manning	Alice								0
+493513	1147	0	Barker	Ramona								0
+493514	1147	0	Bayers	Rick & Sheryl								0
+493515	1147	0	Crites	Marjorie								0
+493516	1147	0	Hess	Wes & Cassie								0
+493517	1147	0	Dutton	Ben & Laura								0
+493518	1147	0	Gray	Bill								0
+493519	1147	0	Crites	Jason								0
+493525	1147	0	Bentrup	Chris								0
+493526	1147	0	Fuller	Carol								0
+493528	1147	0	Drewes	Robert & Donna								0
+493529	1147	0	Fowler	Family of Roger								0
+493530	1147	0	Brumfield	Family of Susan								0
+493531	1147	0	Ray	Darla								0
+493532	1147	0	Ray	Chad								0
+493533	1147	0	Administrator	Office of Public								0
+493534	1147	0	Jacobs	Greg & Lana								0
+493535	1147	0	McFarland	Ben & Kendra								0
+493536	1147	0	Funeral Home	Vinyard								0
+493537	1147	0	Moss	Jean								0
+493538	1147	0	Ray	Logan								0
+493539	1147	0	Ray	Emily								0
+493540	1147	0	Greenwood	Shelly								0
+493541	1147	0	Bryant	Family of Bill								0
+493542	1147	0	Allen, Jr.	Clarence								0
+493543	1147	0	Hall	Family of Paul								0
+493544	1147	0	Harris	Betty								0
+493545	1147	0	Plouder	Sharon								0
+493546	1147	0	Manning	Alice								0
+461738	1147	0	McClain	Mabel Cross								0
+461739	1147	0	McClure	Billy & Jean								0
+461740	1147	0	McCormack	James H								0
+461741	1147	0	McCreary	Arnold								0
+461742	1147	0	McCreary	Eugene T								0
+461743	1147	0	McCreary	Eugene								0
+461744	1147	0	McCutchen	Pearl								0
+461745	1147	0	McDaniel	Mackie								0
+461746	1147	0	McDaniel	John								0
+461748	1147	0	Tidd	Lewis								0
+461749	1147	0	Shell	Silas								0
+461750	1147	0	McCormack	Mitchel								0
+461751	1147	0	McCrorey	John								0
+461752	1147	0	Wynn	Julie								0
+461753	1147	0	Graham	Lawrence								0
+461754	1147	0	McEwen	Ruth & Walter								0
+461755	1147	0	Greer	Linda								0
+461794	1147	0	McDermott	Audrey								0
+461795	1147	0	McGraw	Evelyn								0
+461796	1147	0	McKee	Dewey								0
+461798	1147	0	McKee	Lois								0
+461799	1147	0	McKee	Lula								0
+461800	1147	0	McNece	Dortha								0
+461801	1147	0	McNulty	Hazel								0
+461802	1147	0	McNulty	Joseph Edward								0
+461803	1147	0	McMahon	Marcella								0
+385406	1147	0	Lucas	Virginia								0
+381600	1147	0	Yeida	Ruth								0
+381603	1147	0	Musgraves	John								0
+381605	1147	0	Ramey	John R								0
+381607	1147	0	Spradling	Cathy								0
+381609	1147	0	Moss	Linda								0
+381610	1147	0	Wildy	Ralph & Evelyn								0
+381631	1147	0	Faries	Don								0
+381632	1147	0	Swyers	Mr. and Mrs. A								0
+381633	1147	0	McCoy	Tom								0
+381634	1147	0	Henderson	Jillene								0
+381635	1147	0	Laburay, Sr.	Tom								0
+381636	1147	0	Stump	Amanda								0
+381637	1147	0	Thompson	Bill and Barbara								0
+381638	1147	0	Moore	Otho Eugene								0
+381639	1147	0	Anderson	David and Tamara	1837 Willow Drive		Pevely	MO	63070			0
+381640	1147	0	Crader	Bill C.								0
+381642	1147	0	Maher	Rosemarie Loretta								0
+381643	1147	0	Ward	Compton								0
+381644	1147	0	Billings	Jack and Shirley	827 Joachim St.		Festus	MO	63028			0
+381645	1147	0	Weber	Deanna								0
+381646	1147	0	Bollinger	Leo and Helen								0
+381647	1147	0	Evans	Murna Lee								0
+381648	1147	0	Thomas	Wayne Edmund								0
+381649	1147	0	Peterein	Daniel E								0
+381650	1147	0	Edwards	Melba								0
+381652	1147	0	Rhineberger	Robert								0
+381653	1147	0	Dean	Bernadine N								0
+381654	1147	0	Thomas	Eugene E								0
+381655	1147	0	Dixon	MJ								0
+381656	1147	0	Faenger	Laura E								0
+381657	1147	0	Davis	Frank								0
+381658	1147	0	Coleman	Gayle								0
+381659	1147	0	Hughes	Virginia								0
+381660	1147	0	Wagner	Brenda								0
+381661	1147	0	Harris	Nancy								0
+381662	1147	0	Messer	Frances								0
+381663	1147	0	Weber	Gary								0
+381664	1147	0	Davis	Robert Paul								0
+381665	1147	0	Carr	Freda								0
+381666	1147	0	Meyers	William								0
+381667	1147	0	Cook	Buford and Lillian								0
+381668	1147	0	Miller	Walda and Glenda								0
+381669	1147	0	Brannam	Harry and Dolores	817 Huber		Festus	MO	63028			0
+381670	1147	0	Thuesen	Nelson								0
+382774	1147	0	Rudloff	Clarence & Myrtle								0
+382775	1147	0	Cooper	Wendell								0
+382776	1147	0	Durning	Floyd	1007 Terrace Dr.		Festus	MO	63028			0
+382777	1147	0	Thebeau	Jim & Vera								0
+382778	1147	0	Holst	Floyd & Lee Etta								0
+382779	1147	0	Ashabranner	Elliott and Bobbie	1224 Horine Rd		Festus	MO	63028	937.8341		0
+382780	1147	0	Moore	Dorothy								0
+382781	1147	0	Elliott	Frank & Sharon								0
+382782	1147	0	Richardson	Cheryl "Sherry"								0
+382783	1147	0	Wilkinson	William								0
+382784	1147	0	Shephard	Sally A								0
+382785	1147	0	Serrano	Frank								0
+382786	1147	0	Riley	Lorene								0
+382787	1147	0	Guidorzi	Peggy								0
+382788	1147	0	Peters	Ronald R								0
+382789	1147	0	Wilson	Connie								0
+382790	1147	0	Avila	Rick and Melissa	PO Box 804, 9714 M Dr.		Hillsboro	MO	63050	931.4648	Jeannie's cell# 314.799.4594	0
+382791	1147	0	Roberts	Carla								0
+382989	1147	0	Abernathy	Percy W & Maylo M	955 S 3rd St.		Festus	MO	63028	937.2759		0
+382990	1147	0	Adams	Alice Ann	830 Whitney Circle		Herculaneum	MO	63048			0
+382991	1147	0	Adams	Gilbert	414 Sunshine Drive		Festus	MO	63028			0
+382993	1147	0	Adams	Norma M	11780 Kingston Drive		Festus	MO	63028			0
+382995	1147	0	Adams	Robert & (Bridget )	508 S. Grand		Nashville	IL	62263	681.327.3977		0
+382996	1147	0	Adolph	Fred J	810 Jackson		Festus	MO	63028			0
+382998	1147	0	Ainsworth	Lowell E & Rubena /Virg. Casey	272 English Road		Foristell	MO	63348			0
+382999	1147	0	Akins	Eli E	903 N 6th		Festus	MO	63028			0
+383007	1147	0	Akins	Ernest L			Festus	MO	63028			0
+383010	1147	0	Akins	Jesse E	8 E Frisco		Festus	MO	63028			0
+383013	1147	0	Akins	Marissa	11872 State Rd CC		Festus	MO	63028	937.8117		0
+383015	1147	0	Akins	Wm E			Danby	MO				0
+383016	1147	0	Albano	Claudia J	2263 Platting Rd		Festus	MO	63028			0
+383018	1147	0	Albano, Jr.	Frank & Joy	2237 Plattin Rd		Festus	MO	63028			0
+383019	1147	0	Albano	Louise	910 Mississippi Ave		Crystal City	MO	63019			0
+383020	1147	0	Albano	Samuel M	540 Park Drive		Zion	IL	62549	217.864.4591		0
+383021	1147	0	Albano	Sylvester & Lillian	405 Ninth St.		Crystal City	MO	63019			0
+383022	1147	0	Albaugh	Peggy A	834 Woodrow Ave		Festus	MO	63028			0
+383023	1147	0	Albright	Ralph	510 Rose Lane		Festus	MO	63028			0
+383025	1147	0	Alcorn	Homer E & Irma B	1801 Gamel Cemetery Rd		Festus	MO	63028	937. 6034		0
+383026	1147	0	Alexander	Thelma			Crystal City	MO	63019			0
+383027	1147	0	Alexander	Thomas H & Rhonda L	Rte 4 Box 82		Festus	MO	63028			0
+383028	1147	0	Alexander	Thomas	309 N Adam St		Festus	MO	63028			0
+383030	1147	0	Alford	Walter L	402 Spruce St		Festus	MO	63028			0
+383031	1147	0	Algire	Clyde	104 Country Rd		Crystal City	MO	63019			0
+383032	1147	0	Allbee	Roger H	Box 146		Crystal City	MO	63019			0
+383034	1147	0	Allen	Austin G (N Taylor)	Box 84		Crystal City	MO	63019			0
+383035	1147	0	Allen	Bertha L	121 Chestnut St		Festus	MO	63028			0
+383036	1147	0	Allen	Clarence	399 Lembeck Rd		DeSoto	MO	63020			0
+383218	1147	0	Bachmann	Erwin J	Rte 1		Hematite	MO				0
+383219	1147	0	Bachmann	Frank & Peggy	807 Mississippi Ave		Crystal City	MO	63019			0
+383220	1147	0	Bachmann	Mr. H & wife			St Louis	MO				0
+383221	1147	0	Bage	Ellis R	Rte 1		Pevely	MO				0
+383222	1147	0	Bailey	William H.	907 S 3rd Street		Festus	MO	63028			0
+383223	1147	0	Bair	Colleen	1120 N 2nd Street		Festus	MO	63028			0
+384613	1147	0	Rethwisch	Wanda J								0
+384614	1147	0	Dunnavant	Mason								0
+384657	1147	0	Baker	Hensley R.	Rte. #2		Festus	MO	63028			0
+384659	1147	0	Baker	Lemuel & Ellen L.			Herculaneum	MO	63048	trade on cont. 115		0
+384661	1147	0	Ball	Alberta M			Festus	MO	63028			0
+384663	1147	0	Ballard	Joseph K & Opel Sue	816 Horine Rd		Festus	MO	63028			0
+384664	1147	0	Balsiger	Harry H or Edna M.	457 Hawthorn St		Webster Groves	MO				0
+384666	1147	0	Bannister	Charles			Festus	MO	63028			0
+384667	1147	0	Barebo	Kathleen	2138 Victoria Cedars Drive		Festus	MO	63028	586-8734		0
+384669	1147	0	Barks	Dewey E.	303 N 9th		Crystal City	MO	63019			0
+384670	1147	0	Barker	L. Sue	3 Darby Lane		Crystal City	MO	63019	931-0549		0
+384671	1147	0	Alexander	Avion & Kathryn	3104 Carron Rd		Festus	MO	63028			0
+384673	1147	0	Barks	Donald Gene			Pine Bluff	AR		c/o Claude Lupkey	Herculaneum,MO	0
+384674	1147	0	Barks	William								0
+384675	1147	0	Barnes	James R	3389 Horseshoe Lane		Festus	MO	63028	937-4618		0
+384676	1147	0	Barnes	Josh	117 S 4th		Festus	MO	63028			0
+384677	1147	0	Barnes	Sherman & Virginia	605 N Mill St		Festus	MO	63028			0
+384681	1147	0	Barnett	Frank G. (Jim)			Hillsboro	MO	63050			0
+384682	1147	0	Barnhart	Alice	Rte. 3, Box 208A		Festus	MO	63028			0
+384683	1147	0	Barnhart	Clay L								0
+384684	1147	0	Barningham	Alfred								0
+384685	1147	0	Barnwell	Guite H. (Mrs.)			Herculaneum	MO	63048			0
+384687	1147	0	Barnett	Clifford	525 Maple St.		Festus	MO	63028			0
+384689	1147	0	Barrett	David C., Janet T., Barbara S.	11528 Sandhurst Dr.		St. Louis	MO	63131	314.872.8139		0
+384690	1147	0	Barrett	Mary Louise & A.C.			Festus	MO	63028			0
+384691	1147	0	Barton	Linda Kay	2015 Missouri Ave, Apt. B		Crystal City	MO	63019			0
+384692	1147	0	Barton	Viola Mae	509 N Mill		Festus	MO	63028			0
+384693	1147	0	Barton	Viola V	1005 Huber St		Festus	MO	63028			0
+384694	1147	0	Basler	Velma	1804 Randal		Cape Girardeau	MO	63701			0
+384695	1147	0	Batchelor	Robert R	3658 US Hwy 61		Festus	MO	63028			0
+384696	1147	0	Batchelor	Richard V	3 Manderly Cy		Festus	MO	63028			0
+384697	1147	0	Battles	John	206 Massot Rd		Festus	MO	63028			0
+384698	1147	0	Battles	Nancy	Rte 1		Festus	MO	63028			0
+384699	1147	0	Batts	Ivie E & Mary A	9234 Patricia Lane		Pevely	MO	63070			0
+384700	1147	0	Baughman	Ruth Marie	Rte 3, Box 259		Festus	MO	63028			0
+384701	1147	0	Bauman	Fred C (Mrs.)	327 N 7th St		Festus	MO	63028			0
+384702	1147	0	Bauman	George J, Sr. & Donna	9674 Whelan St		Hillsboro	MO	63050			0
+384703	1147	0	Bauman	Peggy	1536 Westvale		Festus	MO	63028			0
+384704	1147	0	Bauman	Russell H & Dorothy M	#1 Cave Top Lane		Festus	MO	63028			0
+384705	1147	0	Bay	Earl I	817 Valentine		Festus	MO	63028			0
+384706	1147	0	Bay	Wm. E (Deeded to Earl I Bay)	817 Valentine St		Festus	MO	63028			0
+384707	1147	0	Bay-Dresch	Mrs. R	289 Ewin		Gleendale 22	MO				0
+384708	1147	0	Beaman	Paul E	200 Old State Rd		Pevely	MO				0
+384709	1147	0	Beatte	Daisy								0
+384710	1147	0	Beatte	Roy C	409 W Main St		Festus	MO	63028			0
+384711	1147	0	Beck	H.J.								0
+384712	1147	0	Beckemeyer	Cletus R & Esther R	148R Holdinghausen Dr.		Crystal City	MO	63019			0
+384713	1147	0	Becker	Barbara S(c/0 Norville Becker)	2510 Buckcreek Rd		Festus	MO	63028	937.8962	cell# 636.208.6650	0
+384714	1147	0	Becker	Catherine			Crystal City	MO	63019			0
+384715	1147	0	Becker	Gertrude	Rte 2		Festus	MO	63028		sold by Politte to Becker (formerly R Buckner contract 184)	0
+384716	1147	0	Becker	Elsie	8909 Chapel Hill Ct.		Hillsboro	MO				0
+384717	1147	0	Becker	Harold O	145 9th Street		Festus	MO	63028			0
+384718	1147	0	Becker	John T	Frisco St		Festus	MO	63028			0
+384719	1147	0	Becker	Joseph H	Rte 1		Festus	MO	63028			0
+384720	1147	0	Becker	Marvin L	Rte 1		Festus	MO	63028			0
+384721	1147	0	Becker	Mitchell	300 Russell		Festus	MO	63028		4,5,6 back to RLMG	0
+384722	1147	0	Becker	Philip R								0
+384723	1147	0	Becker	Nadine	3825 Primo Rd		Festus	MO	63028			0
+384725	1147	0	Becker, Jr.	Warren	Box 51		Hematite	MO	63047			0
+384726	1147	0	Beckham	Andrew Frank	139 N 9th		Festus	MO	63028			0
+384727	1147	0	Beckham	George			East St Louis	IL				0
+384728	1147	0	Beckett	Nettie	PO Box 25		Pevely	MO	63070			0
+384729	1147	0	Beckett	Thomas L & Norma F	515 Hardage Trace		Marietta	GA	30064	937. 3450 D. McGraw		0
+384730	1147	0	Beckham	James O. (Mrs.)	1622 N 4th		DeSoto	MO				0
+384731	1147	0	Beckner	Melvin E & Elizabeth V	146 Ozark Dr		Crystal City	MO	63019			0
+384732	1147	0	Beffa	Daniel & Amanda	9747 Cottonwood		Bloomsdale	MO	63627	483.9285		0
+384733	1147	0	Beffa	Joseph D & Virginia L	1419 Sie-200		Holden	MO	64040			0
+384734	1147	0	Beffa	Vincent (Mrs.)								0
+384735	1147	0	Begemann	Jo Ann	1011 W Main St		Festus	MO	63028			0
+384736	1147	0	Behling	Robert	2187 Horine Rd		Festus	MO	63028			0
+384737	1147	0	Bell	John J	Rte #3, Box 358		Festus	MO	63028			0
+384738	1147	0	Belleville	Carter & Cleona	1315 Roland Ct		Festus	MO	63028			0
+384739	1147	0	Belleville	Charles	1212 N 3rd St		Festus	MO	63028			0
+384740	1147	0	Belleville	Richard J & Deborah S	801 Burns Ct		Festus	MO	63028			0
+384741	1147	0	Bellon	Patricia A	27 Holly Lane		Festus	MO	63028			0
+384742	1147	0	Bennett	John Edward			Crystal City	MO	63019			0
+384743	1147	0	Bennett	Joseph E			Cedar Hill	MO				0
+384744	1147	0	Bennett	Ralston P	210 Virginia Ave		Crystal City	MO	63019			0
+384745	1147	0	Bennett	V Robert & Lola C	2056 E Villarita Dr		Phoenix	AZ	85022	992.6472		0
+384746	1147	0	Bennett	Walter L & Floy M	1919 Missouri Ave		Crystal City	MO	63019			0
+384747	1147	0	Bennett, Dr.	Wendell C			Columbia	TN				0
+384748	1147	0	Bequette	Lynn J	535 Westwoods Place		Festus	MO	63028			0
+384749	1147	0	Bequette	Sara Jane	1023 N Mill Dr		Festus	MO	63028		Private Sale Lee & Mildred White ($1700)	0
+384750	1147	0	Berry	Richard D & Mildred N	211 9th St		Crystal City	MO	63019			0
+384751	1147	0	Bess	Donald & Doris	123 10th St		Festus	MO	63028			0
+384752	1147	0	Bess	Leon (Mrs.)	Hartshorn Acres		Festus	MO	63028			0
+384753	1147	0	Berry	George A. & Cynthia	13250 John Smith Rd		Potosi	MO	63664			0
+384754	1147	0	Betts	Robert L	229 County Rd		Crystal City	MO	63019			0
+384756	1147	0	Bias	Elizabeth O			St Louis	MO				0
+384757	1147	0	Biehle	Anthony B. & Mary E	107 Ozark Dr		Crystal City	MO	63019			0
+384758	1147	0	Biehle	Raymond J	715 Warne St		Festus	MO	63028			0
+384759	1147	0	Biehle	Louis P & Theresa M			Crystal City	MO	63019		Private Sale Ivan C & Hazel E Spain 6/6/78	0
+384760	1147	0	Bilbrey	Robert E	1902 Kirby		El Campo	TX	77437			0
+384761	1147	0	Billings									0
+384762	1147	0	Birch	Kate								0
+384763	1147	0	Bingham	Lillie M	206 George		Crystal City	MO	63019			0
+384764	1147	0	Bingham	Wm E & Grace A	224 Chestnut		Crystal City	MO	63019	937.5103		0
+384765	1147	0	Bins	Clifford J & Ruth	411 7th St		Crystal City	MO	63019		Private Sale from Joyce B Vinyard	0
+384766	1147	0	Bisch	Charles	410 S Mill		Festus	MO	63028			0
+384767	1147	0	Bisch	Norval	122 Olive St		Festus	MO	63028			0
+384768	1147	0	Bishop	Joseph A & Mary L.	9060 Radnor		Pevely	MO	63070	479.7551		0
+384769	1147	0	Bishop	Mildred	511 Resevoir		Herculaneum	MO	63048			0
+384770	1147	0	Bishop	Paul E	1299 West Lark		Fenton	MO	63026		Private Sale	0
+384771	1147	0	Black	Thomas & Betty	25 Oakes Dr		Crystal City	MO	63019			0
+384772	1147	0	Blackwell	Ephraim (Mrs.)	906 W Main		Festus	MO	63028			0
+384773	1147	0	Blahut	Martha								0
+384774	1147	0	Blair	Joe A & Ethalein Jynette	907 Huber		Festus	MO	63028			0
+384775	1147	0	Hammon	George A. (Rev.)							Private Sale L Lucas 1975	0
+384776	1147	0	Blake	E.E.	500 Taylor		Crystal City	MO	63019			0
+384777	1147	0	Blanchard	Carol	59 Ashford Place		Festus	MO	63028			0
+384778	1147	0	Bland	Tonya	115 S 4th		Festus	MO	63028			0
+384779	1147	0	Blaylock	Alice	120 Broadway		Crystal City	MO	63019			0
+384780	1147	0	Blaylock	Andrew J	Rte 2		Festus	MO	63028			0
+384781	1147	0	Blessen	Melvin A	5457 Oak Crest Dr		Imperial	MO	63052			0
+384782	1147	0	Blize	Elizabeth	604 S 5th St		Festus	MO	63028			0
+384783	1147	0	Block	De Otis (Mrs.), Harriet			Crystal City	MO	63019			0
+384784	1147	0	Blomstrand	Paul	Rte 2,Box 157		Bloomsdale	MO				0
+384785	1147	0	Blum	ER & Mollie			Festus	MO			Private Sale from James E Wright (cont. 150) 9/25/51	0
+384786	1147	0	Blum (Breeze)	A Elmo & ( T.A. )	Box 57		Festus	MO	63028			0
+384787	1147	0	Blum	Nancy A	1218 Berry Dairy Rd		De Soto	MO	63020			0
+384788	1147	0	Meier	Mary L								0
+384789	1147	0	Usery	James	1125 Edgewood Dr		Festus	MO	63028			0
+384790	1147	0	Graff	Ruby L	401 Cromwell Rd		Festus	MO	63028			0
+384797	1147	0	Bobe/ Kaplan	Carol A / Constance W	3389 Horseshoe Lane		Festus	MO	63028			0
+384798	1147	0	Boedecker	Wm G & Thelma	628 Mueller		Festus	MO	63028			0
+384808	1147	0	Bowman	Roberta May	303 Sand Hill Dr, Apt F		Festus	MO	63028			0
+384812	1147	0	Boyer	Alonzo								0
+384817	1147	0	Boyer	Everett S & Mary A	Box 456		Herculaneum	MO	63048			0
+384827	1147	0	Bowyer	Harold F	501 Brothers Dr		Festus	MO	63028			0
+384903	1147	0	Board	Ricky G & Monica L	208 Kingwood Dr		Newport News	VA	23601			0
+384904	1147	0	Bobe	Randolph R	551 Oli Ali Dr		Festus	MO	63028	937.4651		0
+384905	1147	0	Bobe	Robert R & CArol A	3389 Horseshoe Lane		Festus	MO	63028	937.4651		0
+384906	1147	0	Bogue	Jeanelle R & Wm W,Jr	411 10th St		Crystal City	MO	63019			0
+384907	1147	0	Boettger	Dorothy A	818 Virginia Ave		Festus	MO	63028			0
+384908	1147	0	Bohannon	Armon A	Box 377		Festus	MO	63028			0
+384909	1147	0	Bohannon	Jimmy Dale								0
+384910	1147	0	Bollinger/Kempster	Dewey O & Hester/ Barbara	1936 Horine Rd		Festus	MO	63028-2807			0
+384911	1147	0	Bonacker	August	Scenic Drive		Festus	MO	63028			0
+384912	1147	0	Bonacker	Lester								0
+384913	1147	0	Bova	Jennie Mae	834 Joachim		Festus	MO	63028			0
+384914	1147	0	Bowers	Ray A	422 Walnut		Festus	MO	63028		Account in name of David & Tamara Anderson	0
+384915	1147	0	Boxdorfer	Oscar P	213 County Rd		Crystal City	MO	63019		changed spaces from 2&3 to 1&2 on 11/63	0
+384916	1147	0	Boyce	William S	Rte 3		Festus	MO	63028			0
+384917	1147	0	Boyd	H Don & Winnie H	2122 Plattin Rd		Festus	MO	63028	937.4433	exchange of 1557(5/6) for 593(1/2)	0
+384918	1147	0	Boyd	Rosa L (Mrs. HD)	315 N 2nd		Festus	MO	63028			0
+384919	1147	0	Boyd	Roy E & Celeste	2798 Hwy 61		Festus	MO	63028	937.5988	Exchange of 1366(3/4) for 613(5/6) cont # 8626 for 9337	0
+384920	1147	0	Boyer	Brenda	Rte 3, Box 257		DeSoto	MO	63020			0
+384921	1147	0	Boyer	Carl D	12842 Madsen Lane		Festus	MO	63028	937.5321		0
+384922	1147	0	Boyer	Della Mae	100 N 5th St		Festus	MO	63028			0
+384923	1147	0	Boyer	Dorothy	Rte 2, Box 272		Festus	MO	63028			0
+384924	1147	0	Boyer	Earl J	Rte 2		Festus	MO	63028			0
+384925	1147	0	Boyer	George W								0
+384926	1147	0	Boyer	Henry			Barnhart	MO				0
+384927	1147	0	Boyer	Violet N. (Mrs. Henry A)			Pevely	MO				0
+384928	1147	0	Boyer	Jane M	Rt 1, Box 318		Williamsville	MO	63967			0
+384929	1147	0	Boyer	James S	531 Hill St		Herculaneum	MO	63048			0
+384930	1147	0	Boyer	John Neal								0
+384931	1147	0	Boyer	Leslie E	2804 S Morgan		Lebanon	MO	65536			0
+384932	1147	0	Boyer	Lyle J	1014 S 2nd St		Festus	MO	63028			0
+384933	1147	0	Boyer	Mary J	118 Valley Vue Place		Festus	MO	63028	937.8625		0
+384934	1147	0	Boyer	Milford Ross & Elizabeth Ann	Box 180 Sandy Rd		Pevely	MO	63070			0
+384935	1147	0	Boyer	Norville	830 Ridge		Festus	MO	63028			0
+384936	1147	0	Boyer	Patty Louise	1322 Westchester		Herculaneum	MO	63048			0
+384937	1147	0	Boyer, Sr.	Ronald E	8235 Wysong Drive		Indianapolis	IN	46219		(See lot 472 SE/Prayer)	0
+384938	1147	0	Boyer	Vivian N	Box 386		Herculaneum	MO	63048			0
+384939	1147	0	Boyer	Zed	2229 Thurwell		Herculaneum	MO	63048			0
+384940	1147	0	Boyne	Francis			Pevely	MO				0
+384941	1147	0	Vinyard	Keith								0
+384942	1147	0	Thompson	Norman L & Beverly							Myrtle deeded to C. Floyd Boyd who sold to Thompsons (1970)	0
+384943	1147	0	Boyd	Myrtle	312 Virginia Ave		Crystal City	MO	63019			0
+384957	1147	0	Sullins	Agnes Boedecker							original deed to Wm H Boedecker; '93 (4/5) reassigned to Agnes	0
+384958	1147	0	Bradley	Lillian F	764 Circle Dr		Herculaneum	MO	63048	479.5671		0
+384959	1147	0	Bradley	Roscoe	764 Circle Dr		Herculaneum	MO	63048	4795671		0
+384960	1147	0	Bradley	W.A. (Bud)								0
+384961	1147	0	Bradshaw	Christina D	12 Riverbluff Dr		Crystal City	MO	63019			0
+384962	1147	0	Bradshaw	Lloyd C	700 Jefferson Ave		Crystal City	MO	63019			0
+384963	1147	0	Braeuner	Raymond H & Virl Jerine	1520 Horine Rd		Festus	MO	63028-1040			0
+384964	1147	0	Brand	Edward	100 Memory Lane		Festus	MO	63028	937.5383		0
+384965	1147	0	Brase	John E & Helen	921 N 4th St		Festus	MO	63028			0
+384966	1147	0	Brasket	Robert	217 Mississippi Ave		Crystal City	MO	63019			0
+384967	1147	0	Braun	Henry L & Elsie M	301 Walnut St		Festus	MO	63028			0
+384968	1147	0	Brewer	E F	420 Mississippi		Crystal City	MO	63019			0
+384969	1147	0	Brewster	Lillie	1301 Hwy 61		Crystal City	MO	63019		formerly Mrs. Carrol E. Cook	0
+384970	1147	0	Brooks	Arthur John	702 Woodrow Ave		Festus	MO	63028			0
+384971	1147	0	Brooks	Doris G	1314 Fulcom Rd		DeSoto	MO	63020			0
+384972	1147	0	Brooks	Geraldine	314 Mississippi Ave		Crystal City	MO	63019			0
+384973	1147	0	Broombaugh	Emil J	307 N 7th St		Crystal City	MO	63019			0
+384974	1147	0	Broombaugh	Hilma Francis (Mrs.)	912 Main St		Herculaneum	MO	63048		purchased from Emil J Broombaugh	0
+384976	1147	0	Brouk	Robert & Esther P	Rte 1		Pevely	MO				0
+384977	1147	0	Brown	Anthony A	210 Russell Ave		Festus	MO	63028			0
+384978	1147	0	Brown	David W	PO Box 2213		Hillsboro	MO			for Martha Queen	0
+384979	1147	0	Brown	Rose (Mrs. J.G.)	519 W Main		Festus	MO	63028			0
+384980	1147	0	Brown	John	813 Huber		Festus	MO	63028			0
+384981	1147	0	Brown	Jack & Alice	Rte 1		Festus	MO	63028			0
+384982	1147	0	Brown	Michael								0
+384983	1147	0	Brown	Roy G & Flora								0
+384984	1147	0	Browning	Anna Mae	401 7th St		Crystal City	MO	63019			0
+384985	1147	0	Bruce	Onus E & Vada M							Deeded from Ruby Elouise Reece	0
+384986	1147	0	Bruce	James R & Sandra	101 Blue Ridge Trace		Festus	MO	63028			0
+384987	1147	0	Bruedigam	Bertha E	Rte 3		Festus	MO	63028			0
+384988	1147	0	Bruedigam	Raymond L & Helen B	Rte 3		Festus	MO	63028			0
+384989	1147	0	Bruhn	Vera A	Rte 2, Box 102		Pevely	MO	63070			0
+384990	1147	0	Brunkhorst	George R. (Mrs.)	707 Joachim St		Festus	MO	63028			0
+384994	1147	0	Bruss	Eldor (Rev)			Crystal City	MO	63019			0
+384999	1147	0	Brust	Lynn	Rte 3, Box 211		Festus	MO	63028			0
+385003	1147	0	Bryant	Henry W			Crystal City	MO	63019			0
+385006	1147	0	Bryant	Ora	709 Huber		Festus	MO	63028			0
+385007	1147	0	Bryant	WM	401 S 4th		Festus	MO	63028			0
+385010	1147	0	Brandt	Raymond L & Mary	209 9th St		Crystal City	MO	63019			0
+385013	1147	0	Brown	Shirley	327 Oakland Woods		Festus	MO	63028			0
+385023	1147	0	Buchanan	Daisy (Mrs. John)			Pevely	MO				0
+385025	1147	0	Buchanan	Donald J	4013 Hillsboro/Hematite Rd		Festus	MO	63028		was for (1/2) reissued 9/14 for (3/4)	0
+385026	1147	0	Buchanan	Thomas E	Rte 1,Box 89		Pevely	MO				0
+385028	1147	0	Buck	James H & Audrey K	705 Huber		Festus	MO	63028			0
+385031	1147	0	Buehler	Adolph	728 N 5th		Festus	MO	63028			0
+385032	1147	0	Buehler	Mark	878 Mallard Woods Dr		Manchester	MO	63021			0
+385050	1147	0	Schmidt	Richard							Private sale from Raymond W Buehler	0
+385051	1147	0	Buehler	Roland S & Luvina G	806 N 5th St		Festus	MO	63028			0
+385052	1147	0	Buehler	Ronald C	320 Fairview		Festus	MO	63028		paid with 2 weeks of cemetery care	0
+385053	1147	0	Buechting	Ruth M	1110 N 2nd St		Festus	MO	63028			0
+385054	1147	0	Buenniger	Shirley A	4414 Dubois Creek Rd		Bloomsdale	MO	63627			0
+385055	1147	0	Burch	Carolyn K	12621 Sunset AVe		St Louis	MO	63128			0
+385056	1147	0	Burch	Lois	573 Arbor Meadows		Ballwin	MO	63021	230.8194		0
+385058	1147	0	Burch	Robert E c/o Betty	511 Timberwyck, Apt.2		Festus	MO	63028			0
+385059	1147	0	Burch	Terry	12621 Sunset Ave		St Louis	MO	63128			0
+385060	1147	0	Burgan	Della M	118 Broadway Ave		Crystal City	MO	63019			0
+385061	1147	0	Burgan	Elvin	118 Broadway Ave		Crystal City	MO	63019			0
+385062	1147	0	Burgan	Rose Mary & Janet F	118 Broadway Ave		Crystal City	MO	63019			0
+385063	1147	0	Burgess	Tonya	612 Moore St		Festus	MO	63028			0
+385065	1147	0	Burkart	Daniel & Donna	10565 Turnberry Ct.		Festus	MO	63028			0
+385066	1147	0	Burlage	Gladys A	733 Riverview Dr		Herculaneum	MO	63048			0
+385067	1147	0	Burlage	E. Fred	Circle Street		Herculaneum	MO	63048			0
+385068	1147	0	Burlage	Sarah Marie	922 Church St		Herculaneum	MO	63048			0
+385069	1147	0	Burlage	William H			Herculaneum	MO	63048			0
+385096	1147	0	Burns	John H	911 S 2nd St		Festus	MO	63028			0
+385097	1147	0	Burnside	Marguerite	706 Jefferson Ave		Festus	MO	63028			0
+385098	1147	0	Burnside	Nora Lee	706 Jefferson		Festus	MO	63028			0
+385099	1147	0	Burnside	Roy & Barbara	1203 N 5th		Festus	MO	63028			0
+385100	1147	0	Buskin	Ethel M	3134 N 21st St		St Louis	MO				0
+385101	1147	0	Butler	Wm E (Mrs.)	515 Sunshine Drive		Festus	MO	63028			0
+385102	1147	0	Butler	M Laura	Box 324		Crystal City	MO	63019			0
+385103	1147	0	Butler	Norma	417 Spruce Dr		Festus	MO	63028			0
+385104	1147	0	Butler	U G								0
+385105	1147	0	Butler	William J	802 Joachim St		Festus	MO	63028			0
+385106	1147	0	Byrd	Asa	T Rd		Danby	MO				0
+385107	1147	0	Byrns	Hanna (Mrs. W H)								0
+385108	1147	0	Butler	Chester E	308 Lindsey Ave		Crystal City	MO	63019			0
+385109	1147	0	Burkart	Orville E & Joann	1601 W Main		Festus	MO	63028			0
+385110	1147	0	Burgan	Dorothy	611 VFW Dr		Festus	MO	63028			0
+385111	1147	0	Buatte	Gerald & Jeweldean	317 N 4th St		Festus	MO	63028			0
+379768	1147	0	Blyzes	Trentis Paul & Willie Mae	10108 Blackberry Trail		Pevely	MO	63070	479.3818		0
+379654	1147	0	Grooms	Garland & Nadine	505 Rose Lane		Festus	MO	63028			0
+379656	1147	0	Hagan	Joseph								0
+379855	1147	0	Lambert	Fred								0
+379857	1147	0	E.F.	Hutchison	236 Massot Rd		Festus	MO	63028-9228			0
+385141	1147	0	Reece	Ruby								0
+385143	1147	0	Ashabranner	Nettie								0
+381178	1147	0	Manns	Phillip G	304 Sunshine Drive		Festus	MO	63028			0
+387257	1147	0	Copelin	Robert								0
+402977	1147	0	Lupkey	Claude & Esther								0
+397798	1147	0	Finley	Barb	8036 State Rd Y		Bloomsdale	MO				0
+397800	1147	0	Luster	Cora	200 Rue Dauphine		Bonne Terre	MO				0
+397827	1147	0	Fast	Virgil & Lillie	814 Joachim		Festus	MO	63028			0
+398225	1147	0	Donnell	Robert E & June I	419 Lincoln		Herculane	MO	63048			0
+398850	1147	0	Rudisaile	Chery								0
+424779	1147	0	Edwards	Joseph F								0
+424780	1147	0	Olinger	Mrs. Dale								0
+424781	1147	0	Eichenberger	Billy Gene								0
+424782	1147	0	Eichenberger	Billy Gene								0
+424783	1147	0	Eichenberger	Agnes								0
+424784	1147	0	Eichenberger	Thomas								0
+424791	1147	0	Eichhorn	Toney								0
+424792	1147	0	Eirvin	Roxie								0
+424795	1147	0	Elders	Mary E								0
+424796	1147	0	Eldridge	Peggy J								0
+424804	1147	0	Kitson	Edward & Marlene								0
+424805	1147	0	Elkins	Anna Regina								0
+424806	1147	0	Ellenberger	Ruth								0
+424807	1147	0	Elliott	Henry								0
+424808	1147	0	Elliott	Donald								0
+424809	1147	0	Sloan	Howard								0
+424810	1147	0	Ellis	James J								0
+424811	1147	0	Elstrot	Roscoe								0
+424878	1147	0	Ferguson	Floyd & Lela								0
+424879	1147	0	Fiddick	Wilma								0
+424881	1147	0	Gardens	Rose Lawn Memorial								0
+425060	1147	0	Gibson	Francis & Inez								0
+425062	1147	0	Finney	Isabelle								0
+425063	1147	0	Fischer	Ethel								0
+425066	1147	0	Fisher	Paul								0
+425067	1147	0	Fitzgerald	George & Lula								0
+425068	1147	0	Flieg	Andrew & Barbara								0
+425069	1147	0	Flieg	Oliver& Jeanette								0
+425070	1147	0	Floyd	Charles & Stella								0
+425071	1147	0	Fluegel	Arthur								0
+425072	1147	0	Fluegel	Parker								0
+425074	1147	0	Foosey	Robert								0
+425075	1147	0	Forchee	Hollys								0
+425076	1147	0	Forsyth	Keith								0
+425077	1147	0	Tussey	Mathilda								0
+425078	1147	0	Fortney	Mrs. Zeno								0
+425079	1147	0	Livingston	Ben								0
+425080	1147	0	Fortney	Nellie								0
+425081	1147	0	Fortney	Thelma								0
+425082	1147	0	Fortney	Margaret								0
+425087	1147	0	Foster	Earnest								0
+425088	1147	0	Fowler	Joe								0
+425089	1147	0	Fox & Kitchen	Harold & Herbert	133 Reasor	20 Blackburn	Ferguson	Mo	63135			0
+425090	1147	0	Weiss	Adolph								0
+425091	1147	0	Francis	Harry & Ruth								0
+425092	1147	0	Francis	Ray								0
+425094	1147	0	Francis	Jessie								0
+425095	1147	0	Francis	James Calloway								0
+425098	1147	0	Kinder	Ozea								0
+425099	1147	0	Frazier	Lola								0
+425100	1147	0	Frye	Charles J								0
+425102	1147	0	Noughton	Charles								0
+425103	1147	0	Frazier	Sarah								0
+425104	1147	0	Frazier	Amos & Hilda								0
+425105	1147	0	Frazier	Harvey								0
+425106	1147	0	White	C.E.								0
+425107	1147	0	Frazier	Evelyn								0
+425108	1147	0	Frazier	Elvin								0
+425109	1147	0	Rethwisch	Carl & Blanche								0
+425110	1147	0	Frazier	Ollie Bell								0
+425111	1147	0	Frazier	Ruth								0
+425112	1147	0	Fricke	Jewel								0
+425113	1147	0	Friedmeyer	Nelson								0
+425114	1147	0	Frueh- Miller	Kathlyn								0
+425115	1147	0	Frye	Paul & Betty								0
+425116	1147	0	Fults	Zeno								0
+425117	1147	0	Fults	Raymond								0
+425118	1147	0	Fundel	Kenneth & Dessie								0
+424812	1147	0	Elzey	Norman								0
+424813	1147	0	Ennis	Albert & Ada								0
+424814	1147	0	Etheridge	Matthew & Edith								0
+424815	1147	0	Evans	George & Dona								0
+424816	1147	0	Evans	James								0
+424817	1147	0	Evans	Marjorie								0
+424818	1147	0	Allgire	William A & Myrtle	3855 Plass Rd		Festus	MO	63028			0
+424819	1147	0	Evans	Murna Lee								0
+424822	1147	0	Ewing	Grace								0
+424843	1147	0	Fadler	Floyd T &Virginia								0
+424844	1147	0	Fadler	Guida Marie								0
+424845	1147	0	Fadler	Delbert								0
+424846	1147	0	Fadler	Eula								0
+424863	1147	0	Fahr	Emil & Margaret								0
+424865	1147	0	Farley	Pearl A								0
+424866	1147	0	Fassold	Herman & Lucille								0
+424868	1147	0	Faulkner	C.R.								0
+424870	1147	0	Faulkner	Edna M								0
+424871	1147	0	Faulkner	Eric E								0
+424872	1147	0	Faulkner	Herbert & Lillie								0
+424873	1147	0	Faulkner	Otis								0
+424874	1147	0	Fenwick,Sr.	George M								0
+424876	1147	0	Fenwick	John Pius								0
+424877	1147	0	Ferguson	Shirley								0
+403861	1147	0	Stiebel	Tracy								0
+403862	1147	0	Warden	Marian								0
+404165	1147	0	Harmon	Dawn								0
+404167	1147	0	Williams	Theresa F.	4700 Detroy Rd.		Evansville	IL	47720			0
+404267	1147	0	Huiliu	Chiad								0
+404268	1147	0	Huiliu	Chiad								0
+404270	1147	0	Natsch	Bob	3128 Broadwalk St.							0
+404271	1147	0	Francis	Norma								0
+409288	1147	0	Ellison	Mildred M								0
+409289	1147	0	Greer	Linda								0
+409291	1147	0	Stolte	Wayne								0
+409292	1147	0	Nachtsheim	Juanita								0
+409293	1147	0	Doss	Lawrence,Sr.								0
+409294	1147	0	Madison	James & Bertha								0
+409295	1147	0	Finney	Elbert								0
+409296	1147	0	Hubbard	Betty J								0
+409298	1147	0	Wedde	Harvey & Norma Jean								0
+409300	1147	0	Coplin	Steven								0
+409301	1147	0	Jackson	Goldie								0
+409307	1147	0	Fluegel	Raymond								0
+409308	1147	0	Elkins	Catherine N								0
+409309	1147	0	Cadwallader	Minnie E								0
+409310	1147	0	Cook	Lillian								0
+409311	1147	0	Huber	Hilmer G								0
+409312	1147	0	Williams	Shirley								0
+409313	1147	0	Frye	Mary E.								0
+409314	1147	0	Rigdon	Robert A								0
+409315	1147	0	Ryckman	Edward A.								0
+409316	1147	0	Vaughn	Michael								0
+409317	1147	0	Knoke	Cynthia S.								0
+409318	1147	0	Daugherty	Elmer D.								0
+409331	1147	0	Max	Ruth A								0
+409332	1147	0	Mira	Deloris M								0
+409333	1147	0	Donald	Howard F.								0
+409334	1147	0	Anderson	Kathryn M.								0
+409335	1147	0	Huber	Beulah								0
+409336	1147	0	Rudloff	Clarence								0
+409337	1147	0	Pfotenhauer	Carl								0
+409338	1147	0	Hampton	William Keith								0
+409339	1147	0	Johnson	Edward L								0
+409340	1147	0	Davis	William Edgar								0
+409341	1147	0	Gerber	Reed								0
+426901	1147	0	Gilliam	Clement								0
+426903	1147	0	Giudicy	Paul H								0
+426904	1147	0	Ogle	Pearl								0
+426905	1147	0	Gillam	Percy								0
+426906	1147	0	Godat	Andrew L								0
+426907	1147	0	Rice	Vernon								0
+426908	1147	0	Gooch	Charlotte								0
+426909	1147	0	Gooch	Earl & Geneva								0
+426910	1147	0	Laiben	George								0
+426911	1147	0	Goodwin	Charles M								0
+426912	1147	0	Goodwin	Harry								0
+426913	1147	0	Goodwin	Howard								0
+426914	1147	0	Gord	Richard								0
+426915	1147	0	Gosling	Ella								0
+426916	1147	0	Gould	Wilbur								0
+426917	1147	0	Henneman	Dixie								0
+426918	1147	0	Roth	Margie								0
+426919	1147	0	Govero	Lorraine								0
+426920	1147	0	Govero	Nancy								0
+426921	1147	0	Govero	Thomas Lawrence								0
+426922	1147	0	Govero	Alicia								0
+426923	1147	0	Govero	Marie								0
+426924	1147	0	Govero	Leland								0
+426925	1147	0	Govro	Lucindy S								0
+426926	1147	0	Govro	Louis								0
+426927	1147	0	Govro	Gladys								0
+426928	1147	0	Potamitis	Pete								0
+426929	1147	0	Goza	Nelda								0
+426841	1147	0	Gamblin	Cletus								0
+426842	1147	0	Gansner	Irene								0
+426843	1147	0	Garber	Christopher								0
+426844	1147	0	Nelson	J.H.								0
+426845	1147	0	Garth	Eva								0
+426846	1147	0	Gebauer	Mable B								0
+426847	1147	0	Gehrs	Joseph								0
+426848	1147	0	Geiler	Amos								0
+426849	1147	0	Gerber	Harley Blake								0
+426850	1147	0	Null	Richard								0
+426851	1147	0	Gibbs	Mattie A								0
+426852	1147	0	Gibbs	Charles A								0
+426855	1147	0	George	Salome K								0
+426856	1147	0	Gilbert	Richard J								0
+426857	1147	0	Gill	Foresteen								0
+426858	1147	0	Gillam	Robert								0
+426859	1147	0	Gillam	Emmitt								0
+427244	1147	0	Grah	Elmer D.								0
+427247	1147	0	Graham	Florence								0
+427248	1147	0	Graham	Bertha								0
+427250	1147	0	Graham	Walter & Evelyn								0
+427251	1147	0	Grassman	Perry Joseph (PJ)								0
+409208	1147	0	Nengel	Maude								0
+409209	1147	0	Nengel	Maude								0
+409211	1147	0	Sheets	George T								0
+409213	1147	0	Sheets	Frances H								0
+409214	1147	0	Sculthorpe	Robert								0
+409226	1147	0	McMahon	Richard								0
+409233	1147	0	Johnson	Barbara								0
+409235	1147	0	Wallman	Allen G								0
+409236	1147	0	DeBoor	Jack								0
+409237	1147	0	Rudisale	Harlen								0
+409242	1147	0	Porchey	Robert								0
+409243	1147	0	Simms	Verna								0
+409244	1147	0	Frazier	Harvey								0
+409245	1147	0	Lancaster	Roy								0
+409249	1147	0	Reeves	William G								0
+409250	1147	0	Smith	William J								0
+409252	1147	0	Pedersen	Lori								0
+409253	1147	0	Ryckman	Edward								0
+409254	1147	0	Fiedler	JoAnn								0
+409255	1147	0	Joyce	Peggy								0
+383053	1147	0	Allen	Clifton H	1021 Kenner Street		Crystal City	MO	63019			0
+383054	1147	0	Allen	Irene	9303 Valley Lane		Pevely	MO	63070			0
+383055	1147	0	Allen	Louise	2017 Scheffer Place		St Louis	MO				0
+383056	1147	0	Allgire	Bernard	Rte 2		Festus	MO	63028			0
+383057	1147	0	Allgire	Bernard	Rte 3,Box 26		Festus	MO	63028			0
+383058	1147	0	Allgire	William A & Myrtle	3855 Plass Rd		Festus	MO	63028			0
+383059	1147	0	Allstat	Jon M & Linda C Winkler	2384 Elevator Rd		Sorento	IL	62086			0
+383060	1147	0	Althauser	Grant L & Irma N	Rte 2		Festus	MO	63028			0
+383061	1147	0	Althauser	Wilbur S & Nellie F			Crystal City	MO	63019			0
+383062	1147	0	Amelung	Edith	Box 174		Festus	MO	63028			0
+383063	1147	0	Amelung	James E	513 5th St		Festus	MO	63028			0
+383064	1147	0	Amelung	Maggie	109 Sunshine Dr		Festus	MO	63028			0
+383065	1147	0	Anderson	Gladys Fay and Richard (son)	PO Box 178		Hematite	MO	63047			0
+383066	1147	0	Anderson	James M & Norma S	317 Blueberry, Summerset Lake		DeSoto	MO	63020			0
+383067	1147	0	Anderson	James M & Ethel (mother)	Rte 4, Box 722		DeSoto	MO	63020			0
+383068	1147	0	Anderson	James R & Sharon S	1333 Melvin Dr		Festus	MO	63028			0
+383069	1147	0	Anderson	Jimmy L & Vonda JO	2 Laura Lane		Festus	MO	63028			0
+383070	1147	0	Anderson	Nicolas	2 Laura Lane		Festus	MO	63028			0
+383071	1147	0	Anderson	Paul	309 7th St		Crystal City	MO	63019		Private Sale from Mrs JW Black	0
+383073	1147	0	Anderson	Tamara A	422 Walnut		Festus	MO	63028	937.6269		0
+383077	1147	0	Arenz	Danny	221 9th St		Festus	MO	63028			0
+383078	1147	0	Arbruster	Florence M	118 E Beffa St		Festus	MO	63028			0
+383079	1147	0	Armistead	Ruby	2441 White St		East St. Louis	IL	62206	618.337.4833		0
+383080	1147	0	Arnold	Morris	8601 Metropolitan Blvd		Pevely	MO	63070			0
+383081	1147	0	Asbridge	Eva (Mrs. R.L.)	Lake Dr.		Herculaneum	MO	63048			0
+383082	1147	0	Asbridge	Eloise	302 Sandhill Dr.		Festus	MO	63028			0
+383084	1147	0	Atkisson	Joe H & Winston D	120 Juliet Place		Festus	MO	63028			0
+383085	1147	0	Avery	Sherrie S	4214 Flucom Rd		DeSoto	MO	63020			0
+383086	1147	0	Avoczkiy	Joseph R	Rte 2		Festus	MO	63028			0
+383087	1147	0	Axley	Arthur A	1216 N 4th St		DeSoto	MO	63020			0
+383088	1147	0	Axley	Ira Joseph (Mrs.)	Gen. Delivery		Crystal City	MO	63019			0
+383089	1147	0	Axley	James A. & Helen G.	2246 Melwood Dr.		Henderson	KY	42420			0
+383090	1147	0	Axtetter	Joseph V. & Martha V	Rte. 2		Festus	MO	63028			0
+383091	1147	0	Aubuchon	Janice	Lindsey Ave		Crystal City	MO	63019			0
+383092	1147	0	Aubuchon	Roy & Russell	Jefferson Ave		Festus	MO	63028			0
+383093	1147	0	Aubuchon	W.M.								0
+383094	1147	0	Austin	Patsy R	524 Roy St		Festus	MO	63028			0
+383095	1147	0	Autrey	Margaret H.	20 Riverbluff		Crystal City	MO	63019			0
+409464	1147	0	Sculthorpe	Robert								0
+409465	1147	0	Sculthorpe	Robert								0
+409466	1147	0	Sculthorpe	Robert								0
+409467	1147	0	Alford	Walter L	402 Spruce St		Festus	MO	63028			0
+409470	1147	0	Engler	Arthur								0
+409471	1147	0	Lucas	Victor								0
+409472	1147	0	DeRousse	Robert								0
+409477	1147	0	Dutton	Hartford								0
+409478	1147	0	Dutton	Hartford								0
+409343	1147	0	Meng	Hassel I								0
+409344	1147	0	Skiadas	George								0
+409345	1147	0	Covington	Wanda Lee								0
+409346	1147	0	Garrett	Donna Lea								0
+409347	1147	0	Roberson	Della M								0
+409348	1147	0	Staley	Genevieve								0
+409349	1147	0	Wilson	Ora Lea								0
+409350	1147	0	Vaughn	Amelia B.								0
+409351	1147	0	Robinson	Genevieve								0
+409352	1147	0	Holman	Randy								0
+409353	1147	0	Miller	Vernon L.								0
+409354	1147	0	Porchey	Gertrude								0
+404404	1147	0	Sanguinette	Ben								0
+404405	1147	0	Fults	Philipina								0
+404407	1147	0	Seifert	Wilma P.								0
+404408	1147	0	LaFloure	Henry								0
+404409	1147	0	Griwach	William								0
+404411	1147	0	Larotta	Evelyn								0
+410144	1147	0	Robinson	Mary Ann								0
+410152	1147	0	Hayes	Andrew								0
+410164	1147	0	Banjai	Mary								0
+410186	1147	0	Morice	Mrs. Raymond								0
+410192	1147	0	Barnett	Jim								0
+410249	1147	0	Grasso	Ron & Betty								0
+410250	1147	0	Grasso	Ron & Betty								0
+410251	1147	0	Grasso	Ron & Betty								0
+410252	1147	0	Seabaugh	Lester								0
+410253	1147	0	Lowry	James								0
+410302	1147	0	Tucker	Harold								0
+410384	1147	0	Becker	Betty								0
+410396	1147	0	Becker	Mrs. Lesta								0
+410563	1147	0	Lowe	Wilson E								0
+410576	1147	0	Smith	Roy								0
+410584	1147	0	Bennett	William H								0
+410590	1147	0	Bennett	Lola C								0
+410665	1147	0	Nicholson	Mrs. B.L.								0
+410666	1147	0	Siebert	Shirley								0
+410667	1147	0	Nicholson	Loraine								0
+410670	1147	0	Hagen	Mrs. Tom G (Ruth)								0
+410687	1147	0	Blomker	Frederick A.								0
+410889	1147	0	Politte	Gentry								0
+410896	1147	0	Politte	Gentry								0
+410977	1147	0	Caples	James								0
+411093	1147	0	Crossland	Wilburn Lawrence								0
+411094	1147	0	Boyer	Lee W								0
+411115	1147	0	Bruedigam	Bertha	Rte 3		Festus	MO	63028			0
+411376	1147	0	Graham	John								0
+411391	1147	0	Burnside	Florence V								0
+411392	1147	0	Butler	Elvin J & EL								0
+411393	1147	0	Butler	Elvin J & EL								0
+411761	1147	0	Caby	Henry E								0
+411762	1147	0	Cadwallader	Ruth Jane								0
+411767	1147	0	Cage	James R								0
+411768	1147	0	Cambron	Anna								0
+411769	1147	0	Callahan	Frank D								0
+411770	1147	0	Caola	Charles J								0
+411771	1147	0	Carpenter	Melvin H								0
+411772	1147	0	Carr	Delbert								0
+411773	1147	0	Carr	Ernest								0
+411774	1147	0	Carr	Jewell M								0
+411775	1147	0	Carr	Jewell M								0
+411776	1147	0	Carron	Valle								0
+411777	1147	0	Luther	Neva								0
+411778	1147	0	Carrow	James R. & Juanita								0
+411779	1147	0	Carrow	Juanita								0
+411780	1147	0	Carstens	Frank								0
+411781	1147	0	Carstens	Andrew								0
+411782	1147	0	Carter	Bessie M								0
+411783	1147	0	Carter	Wm. Birch								0
+411784	1147	0	Carter	William John								0
+411785	1147	0	Carver	William								0
+411786	1147	0	Casey	America								0
+411787	1147	0	Casey	Joyce								0
+411788	1147	0	Casey	Joyce								0
+411789	1147	0	Cash	Raymond								0
+411790	1147	0	Cash	Francis								0
+419214	1147	0	Dobbs	Beulah E								0
+419215	1147	0	Donnell	T. H.								0
+419216	1147	0	Donnelly	Patrick F								0
+419217	1147	0	Donnelly	Mary M								0
+419218	1147	0	Dorlac	Mamie								0
+419219	1147	0	Dorlac Simon	Geneva Alma								0
+419220	1147	0	Drissell	Albert								0
+419221	1147	0	Johnson	R. Winthrop								0
+419222	1147	0	Drissell	Michael								0
+419223	1147	0	Drissell	Letha								0
+419224	1147	0	Drissell	Viola								0
+419225	1147	0	Dreyer	Charles & Cora								0
+419226	1147	0	Douglas	Leonard								0
+419227	1147	0	Douglass	Lloyd (LT)								0
+419228	1147	0	Dubbs	Victor								0
+419229	1147	0	Dubis	Thomas								0
+419230	1147	0	Dugan	Geraldine								0
+419231	1147	0	Dugan	W. Riley & Gracie								0
+419232	1147	0	Dugan	Mrs. Guy								0
+419233	1147	0	Duncan	Mathilda M								0
+419234	1147	0	Sapper	Lloyd								0
+419235	1147	0	Dunn	Robert C								0
+419238	1147	0	Duren	Ralph & Violet								0
+419239	1147	0	Dutton	G. Valle								0
+419240	1147	0	Dyle	Edna								0
+419241	1147	0	Dwelle	Laura								0
+417439	1147	0	Chapman	Catherine								0
+417440	1147	0	Chapman	Catherine								0
+417441	1147	0	Chapman	Pearline								0
+417442	1147	0	Chapue	Arthur								0
+417443	1147	0	Chappue	Ruby								0
+417444	1147	0	Chatfield	Nettie								0
+417445	1147	0	Chatfield	Nettie M								0
+417446	1147	0	Chotrow	Daniel								0
+417447	1147	0	Chotrow	Debra								0
+417448	1147	0	Chotrow	Marie D								0
+417449	1147	0	Church	Gail								0
+417450	1147	0	Church	W. Theo								0
+417451	1147	0	Clampitt	Dolly								0
+417452	1147	0	Clark	Jerry								0
+417453	1147	0	Clark	Vernetta								0
+417454	1147	0	Clark	Vernetta								0
+417455	1147	0	Clemens	Eugene Stanley								0
+417456	1147	0	Vinyard	Herbert								0
+417457	1147	0	Clerc	Grace H								0
+417458	1147	0	Clifton	Chalmer E								0
+417459	1147	0	Clifton	Ruth E								0
+417460	1147	0	Clifton	Gertrude C								0
+417461	1147	0	Clifton	Edward								0
+417462	1147	0	Douglas	L.T.								0
+417463	1147	0	Dreyer	C.								0
+417464	1147	0	Clubb	Thomas H								0
+417465	1147	0	Clubb	Thomas H								0
+417469	1147	0	Corman	Elma								0
+417470	1147	0	Cole	Harvey C								0
+417471	1147	0	Cole	Aaron								0
+417472	1147	0	Cole	Mildred Martin								0
+417473	1147	0	Coleman	Armildia N								0
+417474	1147	0	Coleman	Armildia N								0
+417475	1147	0	Coleman	Charles E								0
+417477	1147	0	Roth	Ardell								0
+417478	1147	0	Coleman	Gerene								0
+417480	1147	0	Colin	Clarence H								0
+417481	1147	0	Colin	Freda								0
+417482	1147	0	Colin	Clarence								0
+417483	1147	0	Colin	John F								0
+417484	1147	0	Colin	John F								0
+417485	1147	0	Koester, Sr.	George & Virginia								0
+417487	1147	0	Colin	Raymond H								0
+417506	1147	0	Shain	John W & Lois W								0
+417507	1147	0	Collins	Mary C								0
+417508	1147	0	Conardy	J Irvin								0
+417509	1147	0	Conway	Mary Virginia								0
+417510	1147	0	Cook	Lorine								0
+417511	1147	0	Cook	Daisy M								0
+417512	1147	0	Cook	Ethel								0
+417513	1147	0	Cook	Kathleen D								0
+417514	1147	0	Cook	Kathleen D								0
+417515	1147	0	Cook	Ethel								0
+417516	1147	0	Cook	Thomas January								0
+417517	1147	0	Cooksey	Helga M Loessl								0
+417520	1147	0	Cooper	James Levi								0
+417521	1147	0	Cooper	Lula W								0
+417522	1147	0	Clifton	Edward (James)								0
+417523	1147	0	Cooper	Wendell								0
+417524	1147	0	Cooper	William J								0
+417525	1147	0	Clifton	James E								0
+417537	1147	0	Coplin	Mrs. Robert								0
+417538	1147	0	Coplin	Anna Marie								0
+417539	1147	0	Reisner	Arthur								0
+417540	1147	0	Coplin	Anna Marie								0
+417541	1147	0	Coplin	Steven								0
+417542	1147	0	Coplin	Steven P								0
+417543	1147	0	Cordia	Lola Fay								0
+417544	1147	0	Cords	Henry								0
+417545	1147	0	Cords	John Henry								0
+417546	1147	0	Cornman	Donald Wayne								0
+417547	1147	0	Corman	Elma								0
+417548	1147	0	Courtney	Mrs. Frank								0
+417549	1147	0	Courtney	Imelda								0
+417550	1147	0	Courtney, Jr.	William A								0
+417551	1147	0	Courtois	Georgia								0
+417552	1147	0	Melton	Edna								0
+417553	1147	0	Covington	Burlyn M								0
+417554	1147	0	Covington, Jr.	George Leland								0
+417555	1147	0	Covington	Dale F								0
+417556	1147	0	Covington	Dale F								0
+417557	1147	0	Covington	George								0
+417558	1147	0	Covington	Berlyn								0
+417559	1147	0	Cowan	Clifford E								0
+417560	1147	0	Cowan	Ella								0
+417561	1147	0	Cowan	Dorothy								0
+417562	1147	0	Cowan	Clifford E								0
+417588	1147	0	Cadwallader	Minnie E								0
+417589	1147	0	Cambron	Margaret O								0
+417590	1147	0	Campa	Manuel								0
+417591	1147	0	Carter	Lewellyn Birch								0
+417592	1147	0	Charles	Vinod/Posh								0
+417593	1147	0	Chatfield	Elizabeth L								0
+417594	1147	0	Chatfield	Estes B								0
+417595	1147	0	Cheney	Albert								0
+417795	1147	0	Coffelt	Alberta G								0
+417796	1147	0	Cole	Fred & Dorothy								0
+417797	1147	0	Conley	Robert M								0
+417798	1147	0	Cook	Edward								0
+417799	1147	0	Cook	Thelma M								0
+417800	1147	0	Cooke	Margaret A								0
+417801	1147	0	Coolidge	William H								0
+417802	1147	0	Coolidge, Sr.	Donald								0
+417803	1147	0	Courtney	Virginia L								0
+417811	1147	0	Courtney	William A								0
+417814	1147	0	Cowan	Alice C								0
+417816	1147	0	Craft	Flossie								0
+417819	1147	0	Craig	Eugene & Nettie								0
+417821	1147	0	Crail	Lillian								0
+417822	1147	0	Crain	Walter L								0
+417823	1147	0	Cross	Lollie M								0
+417824	1147	0	Cross	Elmer								0
+417825	1147	0	Crowe	Ruth A								0
+417826	1147	0	Culton	Virgil								0
+417827	1147	0	Curtis	Fannie Mae								0
+417828	1147	0	Curtis	Catherine								0
+417829	1147	0	Carr	Ollie Gertrude								0
+417830	1147	0	LaRose	Marvin								0
+417831	1147	0	Clark	Floyd								0
+417832	1147	0	Crady	Loretta								0
+417833	1147	0	Wilkerson	Thomas R								0
+417834	1147	0	Cunningham	Edward								0
+417835	1147	0	Conway	Roy								0
+417836	1147	0	Cambron	Martha								0
+417837	1147	0	Campbell	Herbert								0
+417838	1147	0	Campbell	Herbert								0
+417839	1147	0	Culton	Clarence D								0
+417786	1147	0	Church	Leslie								0
+417787	1147	0	Church	Lucian								0
+417788	1147	0	Carstens	Jeanette Bennett								0
+417789	1147	0	Cleveland	Joseph E								0
+417790	1147	0	Cobern	Ellen R								0
+417791	1147	0	Cockerham	Melvin H								0
+417939	1147	0	Welber	Roger								0
+417940	1147	0	Cunningham	Geraldine								0
+417942	1147	0	Shadowens	Mary S								0
+417943	1147	0	Cayce	Myrtle								0
+417944	1147	0	Clark	Gregory L								0
+417946	1147	0	Propst	Thara & Lydia								0
+417947	1147	0	Cox	George								0
+417948	1147	0	Cox	Gary								0
+417949	1147	0	Craig	Walker H & Carrie G								0
+417951	1147	0	Craig	A. Maxine								0
+417952	1147	0	Cravens	Clifford								0
+417953	1147	0	Cresswell	Viola								0
+417954	1147	0	Cretin	Edith								0
+417955	1147	0	Crocker	Eugene								0
+417956	1147	0	Cromer	Frances Louise								0
+417957	1147	0	Cross	Joseph	304 Jefferson Ave		Crystal City	MO	63019			0
+417958	1147	0	Crouch	Orville								0
+417959	1147	0	Crowe, Jr.	Samuel Howard								0
+417960	1147	0	Crump	J Edwin & Esther								0
+417961	1147	0	Crump	Glenn								0
+417962	1147	0	Cunningham	William A								0
+417963	1147	0	Curran, Jr.	Glen E								0
+417964	1147	0	Curry	James B								0
+417965	1147	0	Curtis	Charles Martin								0
+418961	1147	0	Rouggly	C. Clifford								0
+418962	1147	0	Dixon	M.J.								0
+418963	1147	0	Dobbs	Mrs. CJ (Doris)								0
+418964	1147	0	Danback	Adah								0
+418965	1147	0	Danz	Jessie E								0
+418966	1147	0	Daugherty	Earl								0
+418967	1147	0	Decker	George								0
+418968	1147	0	Collier	Velma D.								0
+418969	1147	0	Decker	Mary K								0
+418970	1147	0	Decker	Mattie								0
+418971	1147	0	Decker	Clara								0
+418972	1147	0	DeClue	Beulah								0
+418973	1147	0	DeClue	Eva								0
+418974	1147	0	DeClue	Everette W								0
+418975	1147	0	DeClue	Pauline								0
+418976	1147	0	Dees	Sally								0
+418977	1147	0	DeMent	Lester D								0
+418978	1147	0	DeRousse	Donna								0
+418979	1147	0	Donald	Howard								0
+418980	1147	0	Donnell	Hart B								0
+418981	1147	0	Marlow	Daisy								0
+418982	1147	0	Pullen	Albert N								0
+418983	1147	0	Dyle	William								0
+418984	1147	0	Dunning	George W								0
+418985	1147	0	Duncan	Roy								0
+418986	1147	0	Dorsey	Norville W								0
+418988	1147	0	Doss	Velna A								0
+418989	1147	0	Doughty	George								0
+418990	1147	0	Downing	Maggie E								0
+418991	1147	0	Doza	Gertrude R								0
+418992	1147	0	Drum	James H								0
+418993	1147	0	Drury	Welton J								0
+418994	1147	0	Dumbauld	Izetta								0
+418995	1147	0	Dumbauld	Earl (Mrs.)								0
+419022	1147	0	Dixon	M.I.								0
+419023	1147	0	Harris	Walter J								0
+419024	1147	0	DeVoto	Joseph L								0
+419025	1147	0	Dyle	John								0
+419043	1147	0	Darnell	Sharon								0
+419044	1147	0	Darnell	Irene H								0
+419045	1147	0	Gaff	Richard								0
+419047	1147	0	Davis	Carl R								0
+419048	1147	0	Davis	Clyde M								0
+419049	1147	0	Ramey	Jesse								0
+419050	1147	0	Davis	Florence Gertrude								0
+419051	1147	0	Davis	Delores A								0
+419052	1147	0	Davis	Marjorie Sue								0
+419053	1147	0	Petty-Davis	Gardenia								0
+419054	1147	0	Petty-Davis	Gardenia								0
+419057	1147	0	Davison	Everett T								0
+419059	1147	0	Day	Grace								0
+419060	1147	0	Deaton	Tammy								0
+419061	1147	0	DeBasio	Mary								0
+419062	1147	0	DeClue	Dorothy								0
+419063	1147	0	DeClue	Malcolm								0
+419064	1147	0	DeClue	Lloyd H								0
+419065	1147	0	DeClue	William J								0
+419066	1147	0	Decker	Alfred & Erma								0
+419067	1147	0	Decker	Nickolas H								0
+419070	1147	0	Decker	Eugene								0
+419071	1147	0	Decker	Clyde & Virginia								0
+419072	1147	0	Decker	Metford J								0
+424716	1147	0	Clark	Alma Etheridge								0
+424717	1147	0	Earls	Mary								0
+424718	1147	0	Stevens	Steven								0
+424719	1147	0	Killiam	Charles								0
+424720	1147	0	Eaton	Juanita								0
+424721	1147	0	Ebersoldt	Ralph								0
+424722	1147	0	Lee	Silas								0
+424723	1147	0	Eckman	John								0
+424724	1147	0	Gehrs	Louis & Gertrude								0
