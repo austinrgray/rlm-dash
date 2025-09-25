@@ -42,4 +42,9 @@ class Lot extends Model
     {
         return $this->hasManyThrough(IntermentRecord::class, Plot::class);
     }
+
+    public function getLotLabelAttribute(): string
+    {
+        return trim($this->lot_number . $this->lot_letter);
+    }
 }

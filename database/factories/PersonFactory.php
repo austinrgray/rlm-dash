@@ -2,6 +2,9 @@
 
 namespace Database\Factories;
 
+use App\Models\ContactCard;
+use App\Models\IntermentRecord;
+use App\Models\Person;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,9 +20,7 @@ class PersonFactory extends Factory
     public function definition(): array
     {
         $gender = $this->faker->randomElement(['male', 'female']);
-        $dateOfBirth = $this->faker->dateTimeBetween('-90 years', '-18 years');
-        $isDeceased = $this->faker->boolean(15);
-        $dateOfDeath = $isDeceased ? $this->faker->dateTimeBetween($dateOfBirth, 'now') : null;
+        $dateOfBirth = $this->faker->dateTimeBetween('-100 years', '-0 years');
 
         return [
             'last_name' => $this->faker->lastName(),
@@ -43,12 +44,26 @@ class PersonFactory extends Factory
         ]);
     }
 
-    public function deceased(): static
+    public function configure(): static
     {
-        return $this->state(function (array $attributes) {
-            return [
-                'date_of_death' => $this->faker->dateTimeBetween($attributes['date_of_birth'], 'now'),
-            ];
+        return $this->afterCreating(function (Person $person) {
+            // Attach a ContactCard with 50% chance
+            if ($this->faker->boolean(50)) {
+                ContactCard::factory()
+                    ->for($person, 'contactable')
+                    ->withLabelFromPerson($person)
+                    ->create();
+            }
+
+            // With 15% chance, create an IntermentRecord for this person
+            if ($this->faker->boolean(15)) {
+                $dateOfDeath = $this->faker->dateTimeBetween($person->date_of_birth, 'now');
+                IntermentRecord::factory()->for($person)->create([
+                    'date_of_death' => $dateOfDeath,
+                    'date_of_interment' => $this->faker->optional(0.9)->dateTimeBetween($dateOfDeath, '+30 days'),
+                    'funeral_home' => $this->faker->optional()->company(),
+                ]);
+            }
         });
     }
 }

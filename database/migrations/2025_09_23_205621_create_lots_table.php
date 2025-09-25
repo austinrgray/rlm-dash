@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('lots', function (Blueprint $table) {
             $table->id();
             $table->foreignId('section_id')->constrained()->cascadeOnDelete();
-            $table->string('lot_number');
+            $table->string('lot_number')->nullable();
             $table->string('lot_letter')->nullable();
             $table->integer('max_capacity')->default(6);
             $table->integer('available_plot_count')->default(6);

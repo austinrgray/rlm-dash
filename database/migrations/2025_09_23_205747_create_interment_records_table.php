@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -37,15 +38,10 @@ return new class extends Migration
                 'unknown'
             ])->default('unknown');
             $table->string('funeral_home')->nullable();
-            $table->foreignId('order_id')->nullable()->constrained();
             $table->timestamps();
-
-            $table->checkConstraint('(
-                (internal_cemetery_id IS NOT NULL AND external_cemetery_id IS NULL) OR
-                (internal_cemetery_id IS NULL AND external_cemetery_id IS NOT NULL)
-            )');
-            $table->checkConstraint('(plot_id IS NULL OR internal_cemetery_id IS NOT NULL)');
         });
+
+        DB::statement('ALTER TABLE interment_records ADD CONSTRAINT check_interment_after_death CHECK (date_of_interment IS NULL OR date_of_death IS NULL OR date_of_interment >= date_of_death)');
     }
 
     /**
