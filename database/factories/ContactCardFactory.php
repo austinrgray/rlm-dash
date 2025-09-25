@@ -18,14 +18,14 @@ class ContactCardFactory extends Factory
     {
         return [
             'label' => $this->faker->name(),
-            'phone' => $this->faker->optional(0.8)->phoneNumber(),
+            'phone' => $this->faker->phoneNumber(),
             'email' => $this->faker->optional(0.7)->safeEmail(),
             'address_line_1' => $this->faker->optional(0.6)->streetAddress(),
             'address_line_2' => $this->faker->optional(0.2)->secondaryAddress(),
             'city' => $this->faker->optional(0.6)->city(),
             'state' => $this->faker->optional(0.6)->stateAbbr(),
             'zip' => $this->faker->optional(0.6)->postcode(),
-            'is_active' => $this->faker->boolean(90),
+            'is_active' => $this->faker->boolean(99),
         ];
     }
 
@@ -34,5 +34,10 @@ class ContactCardFactory extends Factory
         return $this->state(fn() => [
             'label' => trim($person->first_name . ' ' . ($person->middle_name ? $person->middle_name . ' ' : '') . $person->last_name),
         ]);
+    }
+
+    public function withLabel(string $label): static
+    {
+        return $this->state(fn() => ['label' => $label]);
     }
 }

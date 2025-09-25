@@ -49,9 +49,20 @@ class Family extends Model
         );
     }
 
+    public function organizations(): HasMany
+    {
+        return $this->hasMany(Organization::class);
+    }
+
+
     public function familyMembers(): HasMany
     {
         return $this->hasMany(FamilyMember::class);
+    }
+
+    public function getPrimaryContactCardAttribute()
+    {
+        return $this->contactCards()->first();
     }
 
     public function contactCards(): MorphMany
@@ -61,8 +72,10 @@ class Family extends Model
 
     public function getHeadOfFamilyAttribute(): ?Person
     {
-        $headMember = $this->members()->where('role', 'head')->first();
-        return $headMember ? $headMember->person : null;
+        return $this->familyMembers()
+            ->where('role', 'head')
+            ->first()
+            ?->person;
     }
 
     public function burialRightBundles(): HasMany
@@ -99,14 +112,6 @@ class Family extends Model
         );
     }
 
-    public function headOfHousehold(): ?Person
-    {
-        return $this->familyMembers()
-            ->where('role', 'head')
-            ->first()
-            ?->person;
-    }
-
     public function livingMembers()
     {
         return $this->members()->whereDoesntHave('intermentRecord');
@@ -120,5 +125,27 @@ class Family extends Model
     public function scopeActive($query)
     {
         return $query->where('is_active', true);
+    }
+
+    public function getOrganizationContactsAttribute(): string
+    {
+        if ($this->organizations->isEmpty()) {
+            return '—';
+        }
+
+        return $this->organizations
+            ->flatMap(function ($org) {
+                return $org->contactCards->map(function ($card) use ($org) {
+                    $lines = [];
+                    if ($card->phone) {
+                        $lines[] = "📞 {$card->phone}";
+                    }
+                    if ($card->email) {
+                        $lines[] = "✉️ {$card->email}";
+                    }
+                    return implode('<br>', $lines);
+                });
+            })
+            ->implode('<br>──────────────<br>');
     }
 }

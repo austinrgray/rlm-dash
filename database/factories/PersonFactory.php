@@ -54,16 +54,6 @@ class PersonFactory extends Factory
                     ->withLabelFromPerson($person)
                     ->create();
             }
-
-            // With 15% chance, create an IntermentRecord for this person
-            if ($this->faker->boolean(15)) {
-                $dateOfDeath = $this->faker->dateTimeBetween($person->date_of_birth, 'now');
-                IntermentRecord::factory()->for($person)->create([
-                    'date_of_death' => $dateOfDeath,
-                    'date_of_interment' => $this->faker->optional(0.9)->dateTimeBetween($dateOfDeath, '+30 days'),
-                    'funeral_home' => $this->faker->optional()->company(),
-                ]);
-            }
         });
     }
 }

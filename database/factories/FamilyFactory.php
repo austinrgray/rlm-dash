@@ -5,6 +5,8 @@ namespace Database\Factories;
 use App\Models\Family;
 use App\Models\FamilyMember;
 use App\Models\Person;
+use App\Models\Organization;
+use App\Models\ContactCard;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -42,6 +44,34 @@ class FamilyFactory extends Factory
             $type = $this->getWeightedRandomType();
             $familyName = $this->faker->lastName();
             $this->createFamilyByType($family, $type, $familyName);
+
+            $head = $family->familyMembers()->where('role', 'head')->first()?->person;
+            if ($head) {
+                ContactCard::factory()
+                    ->for($family, 'contactable')
+                    ->withLabelFromPerson($head)
+                    ->create();
+            }
+
+            // With 20% chance, create a ContactCard for the spouse
+            $spouse = $family->familyMembers()->where('role', 'spouse')->first()?->person;
+            if ($spouse && $this->faker->boolean(20)) {
+                ContactCard::factory()
+                    ->for($family, 'contactable')
+                    ->withLabelFromPerson($spouse)
+                    ->create();
+            }
+
+            if ($this->faker->boolean(25)) {
+                Organization::factory()
+                    ->forFamily($family->id)
+                    ->create();
+            }
+            if ($this->faker->boolean(15)) {
+                Organization::factory()
+                    ->forFamily($family->id)
+                    ->create();
+            }
         });
     }
 

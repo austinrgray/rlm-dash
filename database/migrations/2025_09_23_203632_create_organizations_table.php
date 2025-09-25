@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('organizations', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('family_id')->nullable()->constrained()->nullOnDelete();
             $table->string('name');
             $table->enum('type', [
                 'business',

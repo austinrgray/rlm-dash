@@ -13,6 +13,6 @@ class FamilySeeder extends Seeder
      */
     public function run(): void
     {
-        Family::factory()->count(100)->create();
+        Family::factory()->count(400)->create();
     }
 }

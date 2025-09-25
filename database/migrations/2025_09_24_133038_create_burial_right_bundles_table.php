@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -19,12 +20,14 @@ return new class extends Migration
             $table->date('transaction_date');
             $table->text('notes')->nullable();
             $table->timestamps();
-
-            $table->checkConstraint('(
-                (family_id IS NOT NULL AND organization_id IS NULL) OR
-                (family_id IS NULL AND organization_id IS NOT NULL)
-            )');
         });
+
+        DB::statement(
+            'ALTER TABLE burial_right_bundles
+            ADD CONSTRAINT burial_right_bundles_family_or_org_check
+            CHECK ((family_id IS NOT NULL AND organization_id IS NULL)
+            OR (family_id IS NULL AND organization_id IS NOT NULL))'
+        );
     }
 
     /**

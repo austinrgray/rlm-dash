@@ -22,6 +22,11 @@ class ExternalCemetery extends Model
         return $this->morphMany(ContactCard::class, 'contactable');
     }
 
+    public function getPrimaryContactCardAttribute()
+    {
+        return $this->contactCards()->first();
+    }
+
     public function intermentRecords(): HasMany
     {
         return $this->hasMany(IntermentRecord::class);

@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Organization extends Model
 {
@@ -17,6 +18,11 @@ class Organization extends Model
         'is_active',
         'notes',
     ];
+
+    public function family(): BelongsTo
+    {
+        return $this->belongsTo(Family::class);
+    }
 
     public function contactCards(): MorphMany
     {

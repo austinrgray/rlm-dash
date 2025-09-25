@@ -14,34 +14,24 @@ class PlotsTable
     {
         return $table
             ->columns([
-                TextColumn::make('lot.section.cemetery.name')
-                    ->label('Cemetery')
-                    ->sortable()
-                    ->searchable(),
-
-
                 TextColumn::make('lot.section.name')
                     ->label('Section')
                     ->sortable()
                     ->searchable(),
-
 
                 TextColumn::make('lot.lot_label')
                     ->label('Lot #')
                     ->sortable()
                     ->searchable(),
 
-
                 TextColumn::make('plot_number')
                     ->label('Plot #')
                     ->sortable()
                     ->searchable(),
 
-
                 TextColumn::make('max_traditional_burials')
                     ->label('Max Trad.')
                     ->sortable(),
-
 
                 TextColumn::make('max_cremation_burials')
                     ->label('Max Crem.')
