@@ -13,11 +13,13 @@ return new class extends Migration
     {
         Schema::create('lots', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('section_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('section_id')
+                ->constrained()
+                ->cascadeOnDelete();
             $table->string('lot_number')->nullable();
             $table->string('lot_letter')->nullable();
-            $table->integer('max_capacity')->default(6);
-            $table->integer('available_plot_count')->default(6);
+            $table->unsignedInteger('max_capacity')->default(6);
+            $table->unsignedInteger('available_plot_count')->default(6);
             $table->string('grid_reference')->nullable();
             $table->text('notes')->nullable();
             $table->timestamps();
