@@ -20,9 +20,9 @@ return new class extends Migration
             $table->string('address_line_1')->nullable();
             $table->string('address_line_2')->nullable();
             $table->string('city')->nullable();
-            $table->string('state')->nullable();
-            $table->string('zip')->nullable();
-            $table->boolean('is_active')->default(true);
+            $table->string('state', 2)->nullable();
+            $table->string('zip', 10)->nullable();
+            $table->boolean('is_active')->default(true)->index();
             $table->timestamps();
         });
     }

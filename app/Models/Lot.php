@@ -10,7 +10,6 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 class Lot extends Model
 {
-    /** @use HasFactory<\Database\Factories\LotFactory> */
     use HasFactory;
 
     protected $fillable = [
@@ -28,6 +27,12 @@ class Lot extends Model
         'available_plot_count' => 'integer',
     ];
 
+    /*
+    |--------------------------------------------------------------------------
+    | Relationships
+    |--------------------------------------------------------------------------
+    */
+
     public function section(): BelongsTo
     {
         return $this->belongsTo(Section::class);
@@ -43,6 +48,11 @@ class Lot extends Model
         return $this->hasManyThrough(IntermentRecord::class, Plot::class);
     }
 
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
     public function getLotLabelAttribute(): string
     {
         return trim($this->lot_number . $this->lot_letter);

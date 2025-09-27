@@ -2,35 +2,44 @@
 
 namespace App\Models;
 
-use App\Models\Order;
-use App\Models\Person;
+use App\Enums\DispositionType;
+use App\Enums\IntermentStatus;
+use App\Enums\VaultType;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class IntermentRecord extends Model
 {
-    /** @use HasFactory<\Database\Factories\IntermentRecordFactory> */
     use HasFactory;
 
     protected $fillable = [
         'person_id',
-        'date_of_death',
-        'date_of_interment',
         'internal_cemetery_id',
         'external_cemetery_id',
         'plot_id',
+        'order_id',
+        'date_of_death',
+        'date_of_interment',
         'disposition_type',
         'vault_type',
         'funeral_home',
-        'order_id',
+        'status',
     ];
 
     protected $casts = [
         'date_of_death' => 'date',
         'date_of_interment' => 'date',
+        'disposition_type' => DispositionType::class,
+        'vault_type' => VaultType::class,
+        'status' => IntermentStatus::class,
     ];
 
+    /*
+    |--------------------------------------------------------------------------
+    | Relationships
+    |--------------------------------------------------------------------------
+    */
     public function person(): BelongsTo
     {
         return $this->belongsTo(Person::class);

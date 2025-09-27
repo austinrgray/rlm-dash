@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('external_cemeteries', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->boolean('is_active')->default(true);
+            $table->string('name')->unique();
+            $table->boolean('is_active')->default(true)->index();
             $table->text('notes')->nullable();
             $table->timestamps();
         });

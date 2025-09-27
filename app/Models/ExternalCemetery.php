@@ -9,26 +9,40 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 class ExternalCemetery extends Model
 {
-    /** @use HasFactory<\Database\Factories\ExternalCemeteryFactory> */
     use HasFactory;
+
     protected $fillable = [
         'name',
         'is_active',
         'notes',
     ];
 
+    protected $casts = [
+        'is_active' => 'boolean',
+    ];
+
+    /*
+    |--------------------------------------------------------------------------
+    | Relationships
+    |--------------------------------------------------------------------------
+    */
     public function contactCards(): MorphMany
     {
         return $this->morphMany(ContactCard::class, 'contactable');
     }
 
-    public function getPrimaryContactCardAttribute()
-    {
-        return $this->contactCards()->first();
-    }
-
     public function intermentRecords(): HasMany
     {
         return $this->hasMany(IntermentRecord::class);
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
+    public function getPrimaryContactCardAttribute(): ?ContactCard
+    {
+        return $this->contactCards()->first();
     }
 }

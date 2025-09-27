@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\OrganizationType;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -13,17 +14,13 @@ return new class extends Migration
     {
         Schema::create('organizations', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('family_id')->nullable()->constrained()->nullOnDelete();
+            $table->foreignId('family_id')
+                ->nullable()
+                ->constrained()
+                ->nullOnDelete();
             $table->string('name');
-            $table->enum('type', [
-                'business',
-                'church',
-                'charity',
-                'school',
-                'government',
-                'other'
-            ])->default('business');
-            $table->boolean('is_active')->default(true);
+            $table->string('type')->default(OrganizationType::Business->value);
+            $table->boolean('is_active')->default(true)->index();
             $table->text('notes')->nullable();
             $table->timestamps();
         });

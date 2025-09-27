@@ -18,11 +18,10 @@ return new class extends Migration
             $table->string('grid_reference')->nullable();
             $table->integer('traditional_burials')->default(0);
             $table->integer('cremation_burials')->default(0);
-            $table->integer('max_traditional_burials')->default(1);
-            $table->integer('max_cremation_burials')->default(1);
+            $table->unsignedInteger('max_traditional_burials')->default(1);
+            $table->unsignedInteger('max_cremation_burials')->default(1);
             $table->text('notes')->nullable();
             $table->timestamps();
-
             $table->unique(['lot_id', 'plot_number']);
         });
     }

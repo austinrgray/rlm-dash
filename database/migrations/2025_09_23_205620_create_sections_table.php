@@ -13,10 +13,11 @@ return new class extends Migration
     {
         Schema::create('sections', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('internal_cemetery_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('internal_cemetery_id')
+                ->constrained()
+                ->cascadeOnDelete();
             $table->string('name');
             $table->timestamps();
-
             $table->unique(['internal_cemetery_id', 'name']);
         });
     }

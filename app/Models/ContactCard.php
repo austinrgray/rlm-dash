@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class ContactCard extends Model
 {
-    /** @use HasFactory<\Database\Factories\ContactCardFactory> */
     use HasFactory;
 
     protected $fillable = [
@@ -29,8 +28,34 @@ class ContactCard extends Model
         'is_active' => 'boolean',
     ];
 
+    /*
+    |--------------------------------------------------------------------------
+    | Relationships
+    |--------------------------------------------------------------------------
+    */
     public function contactable(): MorphTo
     {
         return $this->morphTo();
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
+    public function getDisplayLabelAttribute(): string
+    {
+        return $this->label ?? "{$this->phone} / {$this->email}";
+    }
+
+    public function getFormattedAddressAttribute(): string
+    {
+        $parts = array_filter([
+            $this->address_line_1,
+            $this->address_line_2,
+            "{$this->city}, {$this->state} {$this->zip}",
+        ]);
+
+        return implode(', ', $parts);
     }
 }

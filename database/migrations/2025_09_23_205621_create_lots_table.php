@@ -21,7 +21,6 @@ return new class extends Migration
             $table->string('grid_reference')->nullable();
             $table->text('notes')->nullable();
             $table->timestamps();
-
             $table->unique(['section_id', 'lot_number', 'lot_letter']);
         });
     }

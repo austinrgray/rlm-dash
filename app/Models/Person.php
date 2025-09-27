@@ -11,10 +11,11 @@ use Illuminate\Support\Carbon;
 class Person extends Model
 {
     use HasFactory;
+
     protected $fillable = [
-        'last_name',
-        'middle_name',
         'first_name',
+        'middle_name',
+        'last_name',
         'date_of_birth',
         'gender',
         'notes',
@@ -24,6 +25,11 @@ class Person extends Model
         'date_of_birth' => 'date',
     ];
 
+    /*
+    |--------------------------------------------------------------------------
+    | Relationships
+    |--------------------------------------------------------------------------
+    */
     public function families(): BelongsToMany
     {
         return $this->belongsToMany(Family::class, 'family_members')
@@ -34,9 +40,14 @@ class Person extends Model
 
     public function intermentRecord(): HasOne
     {
-        return $this->hasone(IntermentRecord::class);
+        return $this->hasOne(IntermentRecord::class);
     }
 
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
     public function getIsDeceasedAttribute(): bool
     {
         return $this->intermentRecord()->exists();
