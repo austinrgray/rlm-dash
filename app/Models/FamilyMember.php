@@ -35,4 +35,14 @@ class FamilyMember extends Model
     {
         return $this->belongsTo(Person::class);
     }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
+    public function getFullNameAttribute(): string
+    {
+        return "{$this->person?->first_name} {$this->person?->last_name}";
+    }
 }

@@ -44,18 +44,18 @@ class Payment extends Model
     | Accessors
     |--------------------------------------------------------------------------
     */
-    public function appliedAmount(): float
+    public function getAppliedAmountAttribute(): float
     {
         return $this->invoices->sum('pivot.amount_applied');
     }
 
-    public function unappliedAmount(): float
+    public function getUnappliedAmountAttribute(): float
     {
-        return $this->amount - $this->appliedAmount();
+        return $this->amount - $this->applied_amount;
     }
 
-    public function isFullyApplied(): bool
+    public function getIsFullyAppliedAttribute(): bool
     {
-        return $this->unappliedAmount() <= 0.01;
+        return $this->unapplied_amount <= 0.01;
     }
 }

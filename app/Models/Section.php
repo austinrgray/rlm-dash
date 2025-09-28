@@ -41,4 +41,14 @@ class Section extends Model
     {
         return $this->hasManyThrough(IntermentRecord::class, Plot::class);
     }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Scopes
+    |--------------------------------------------------------------------------
+    */
+    public function scopeForCemetery($query, int $cemeteryId)
+    {
+        return $query->where('internal_cemetery_id', $cemeteryId);
+    }
 }

@@ -50,4 +50,24 @@ class Organization extends Model
     {
         return $this->hasMany(Invoice::class);
     }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
+    public function getPrimaryContactCardAttribute(): ?ContactCard
+    {
+        return $this->contactCards()->first();
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Scopes
+    |--------------------------------------------------------------------------
+    */
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', true);
+    }
 }

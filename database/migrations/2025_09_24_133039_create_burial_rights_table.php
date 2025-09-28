@@ -4,6 +4,7 @@ use App\Enums\BurialRightStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -14,12 +15,31 @@ return new class extends Migration
     {
         Schema::create('burial_rights', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('invoice_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('plot_id')->constrained()->unique();
+            $table->foreignId('family_id')
+                ->nullable()
+                ->constrained()
+                ->nullOnDelete();
+            $table->foreignId('organization_id')
+                ->nullable()
+                ->constrained()
+                ->nullOnDelete();
+            $table->foreignId('plot_id')
+                ->constrained()
+                ->unique()
+                ->cascadeOnDelete();
             $table->string('status')->default(BurialRightStatus::Active->value);
             $table->text('notes')->nullable();
             $table->timestamps();
         });
+
+        DB::statement(
+            'ALTER TABLE burial_rights
+            ADD CONSTRAINT check_family_or_org
+            CHECK (
+                (family_id IS NOT NULL AND organization_id IS NULL)
+                OR (family_id IS NULL AND organization_id IS NOT NULL)
+            )'
+        );
     }
 
     /**

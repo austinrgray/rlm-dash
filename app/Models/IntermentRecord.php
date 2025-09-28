@@ -15,10 +15,8 @@ class IntermentRecord extends Model
 
     protected $fillable = [
         'person_id',
-        'internal_cemetery_id',
         'external_cemetery_id',
         'plot_id',
-        'order_id',
         'date_of_death',
         'date_of_interment',
         'disposition_type',
@@ -45,11 +43,6 @@ class IntermentRecord extends Model
         return $this->belongsTo(Person::class);
     }
 
-    public function internalCemetery(): BelongsTo
-    {
-        return $this->belongsTo(InternalCemetery::class);
-    }
-
     public function externalCemetery(): BelongsTo
     {
         return $this->belongsTo(ExternalCemetery::class);
@@ -60,8 +53,13 @@ class IntermentRecord extends Model
         return $this->belongsTo(Plot::class);
     }
 
-    public function order(): BelongsTo
+    /*
+    |--------------------------------------------------------------------------
+    | Derived Relationships
+    |--------------------------------------------------------------------------
+    */
+    public function internalCemetery(): ?InternalCemetery
     {
-        return $this->belongsTo(Order::class);
+        return $this->plot?->lot?->section?->cemetery;
     }
 }

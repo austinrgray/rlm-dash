@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -18,8 +19,12 @@ return new class extends Migration
             $table->string('grid_reference')->nullable();
             $table->integer('traditional_burials')->default(0);
             $table->integer('cremation_burials')->default(0);
+            $table->integer('mausoleum_entombments')->default(0);
+            $table->integer('columbarium_entombments')->default(0);
             $table->unsignedInteger('max_traditional_burials')->default(1);
             $table->unsignedInteger('max_cremation_burials')->default(1);
+            $table->unsignedInteger('max_mausoleum_entombments')->default(0);
+            $table->unsignedInteger('max_columbarium_entombments')->default(0);
             $table->text('notes')->nullable();
             $table->timestamps();
             $table->unique(['lot_id', 'plot_number']);

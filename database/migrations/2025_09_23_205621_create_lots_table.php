@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -25,6 +26,12 @@ return new class extends Migration
             $table->timestamps();
             $table->unique(['section_id', 'lot_number', 'lot_letter']);
         });
+
+        DB::statement(
+            'ALTER TABLE lots
+            ADD CONSTRAINT check_lot_number_or_letter
+            CHECK (lot_number IS NOT NULL OR lot_letter IS NOT NULL)'
+        );
     }
 
     /**

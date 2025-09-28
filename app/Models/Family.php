@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\FamilyRole;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -26,17 +27,6 @@ class Family extends Model
     | Relationships
     |--------------------------------------------------------------------------
     */
-    public function members(): HasManyThrough
-    {
-        return $this->hasManyThrough(
-            Person::class,
-            FamilyMember::class,
-            'family_id',
-            'id',
-            'id',
-            'person_id'
-        );
-    }
 
     public function familyMembers(): HasMany
     {
@@ -58,15 +48,11 @@ class Family extends Model
         return $this->hasMany(Order::class);
     }
 
-    public function intermentRecords(): HasManyThrough
+    public function intermentRecords()
     {
-        return $this->hasManyThrough(
-            IntermentRecord::class,
-            Person::class,
-            'id',
+        return IntermentRecord::whereIn(
             'person_id',
-            'id',
-            'id'
+            $this->familyMembers()->pluck('person_id')
         );
     }
 
@@ -104,116 +90,59 @@ class Family extends Model
     public function getHeadOfHouseholdAttribute(): ?Person
     {
         return $this->familyMembers()
-            ->where('role', 'head')
-            ->first()
-            ?->person;
+            ->where('role', FamilyRole::HeadOfFamily->value)->first()?->person;
     }
 
-    public function getOrganizationContactsAttribute(): string
+    public function getOrganizationContactSummariesAttribute(): array
     {
-        if ($this->organizations->isEmpty()) {
-            return '—';
-        }
-
-        return $this->organizations
-            ->flatMap(fn($org) => $org->contactCards->map(function ($card) {
-                $lines = [];
-                if ($card->phone) {
-                    $lines[] = "📞 {$card->phone}";
-                }
-                if ($card->email) {
-                    $lines[] = "✉️ {$card->email}";
-                }
-                return implode('<br>', $lines);
-            }))
-            ->implode('<br>──────────────<br>');
+        return $this->organizations->map(fn($card) => [
+            'label' => $card->label,
+            'phone' => $card->phone ?? null,
+            'email' => $card->email ?? null,
+        ])->toArray();
     }
 
-    public function getFamilyContactsAttribute(): string
+    public function getContactSummariesAttribute(): array
     {
-        if ($this->contactCards->isEmpty()) {
-            return '<span class="text-gray-400">—</span>';
-        }
-
-        return $this->contactCards
-            ->map(function ($card) {
-                $lines = [];
-                if ($card->phone) {
-                    $lines[] = "📞 {$card->phone}";
-                }
-                if ($card->email) {
-                    $lines[] = "✉️ {$card->email}";
-                }
-                return implode('<br>', $lines);
-            })
-            ->implode('<br>──────────────<br>');
+        return $this->contactCards->map(fn($card) => [
+            'label' => $card->label,
+            'phone' => $card->phone ?? null,
+            'email' => $card->email ?? null,
+        ])->toArray();
     }
 
     public function getMembersWithRolesAttribute(): string
     {
-        if ($this->familyMembers->isEmpty()) {
-            return '<span class="text-gray-400">—</span>';
-        }
-
-        return $this->familyMembers
-            ->map(
-                fn($fm) => $fm->person
-                    ? "{$fm->person->first_name} {$fm->person->last_name} ({$fm->role})"
-                    : '[Unknown Person]'
-            )
-            ->join(', ');
+        return $this->familyMembers->map(fn($fm) => [
+            'first_name' => $fm->person?->first_name,
+            'last_name'  => $fm->person?->last_name,
+            'role'       => $fm->role,
+        ])->toArray();
     }
 
     public function getIntermentsSummaryAttribute(): string
     {
-        if ($this->intermentRecords->isEmpty()) {
-            return '<span class="text-gray-400">—</span>';
-        }
-
-        return $this->intermentRecords
-            ->map(function ($record) {
-                $date = $record->date_of_interment
-                    ? $record->date_of_interment->format('M d, Y')
-                    : '[No interment date]';
-
-                $plot = $record->plot;
-                if ($plot) {
-                    $section = $plot->section?->name ?? 'Unknown Section';
-                    $lotNum = $plot->lot?->lot_number ?? '?';
-                    $lotLetter = $plot->lot?->lot_letter ?? '';
-                    $plotNum = $plot->plot_number ?? '?';
-
-                    $location = "{$section} - {$lotNum}{$lotLetter} - Plot {$plotNum}";
-                } else {
-                    $location = '[No plot]';
-                }
-
-                return "{$date}<br>{$location}";
-            })
-            ->implode('<br>──────────────<br>');
+        return $this->intermentRecords->map(function ($record) {
+            return [
+                'date' => $record->date_of_interment?->format('Y-m-d'),
+                'section' => $record->plot?->section?->name ?? null,
+                'lot_number' => $record->plot?->lot?->lot_number,
+                'lot_letter' => $record->plot?->lot?->lot_letter,
+                'plot_number' => $record->plot?->plot_number,
+            ];
+        })->toArray();
     }
 
-    public function getOwnedPlotsSummaryAttribute(): string
+    public function getBurialRightsSummaryAttribute(): string
     {
-        if ($this->burialRights->isEmpty()) {
-            return '<span class="text-gray-400">—</span>';
-        }
-
-        return $this->burialRights
-            ->map(function ($right) {
-                $plot = $right->plot;
-                if ($plot) {
-                    $section = $plot->section?->name ?? 'Unknown Section';
-                    $lotNum = $plot->lot?->lot_number ?? '?';
-                    $lotLetter = $plot->lot?->lot_letter ?? '';
-                    $plotNum = $plot->plot_number ?? '?';
-
-                    return "{$section} - {$lotNum}{$lotLetter} - Plot {$plotNum}";
-                }
-
-                return '[No plot]';
-            })
-            ->implode('<br>──────────────<br>');
+        return $this->burialRights->map(function ($right) {
+            return [
+                'section' => $right->plot?->section?->name ?? null,
+                'lot_number' => $right->plot?->lot?->lot_number,
+                'lot_letter' => $right->plot?->lot?->lot_letter,
+                'plot_number' => $right->plot?->plot_number,
+            ];
+        })->toArray();
     }
 
     /*

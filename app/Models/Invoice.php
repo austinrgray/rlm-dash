@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class Invoice extends Model
@@ -16,17 +17,13 @@ class Invoice extends Model
     protected $fillable = [
         'family_id',
         'organization_id',
-        'total_amount',
-        'balance_due',
         'status',
         'due_date',
     ];
 
     protected $casts = [
-        'total_amount' => 'decimal:2',
-        'balance_due'  => 'decimal:2',
-        'status'       => InvoiceStatus::class,
-        'due_date'     => 'date',
+        'status'      => InvoiceStatus::class,
+        'due_date'    => 'date',
     ];
 
     /*
@@ -44,9 +41,9 @@ class Invoice extends Model
         return $this->belongsTo(Organization::class);
     }
 
-    public function invoiceable(): MorphTo
+    public function lineItems(): HasMany
     {
-        return $this->morphTo();
+        return $this->hasMany(InvoiceLineItem::class);
     }
 
     public function payments(): BelongsToMany
@@ -72,24 +69,35 @@ class Invoice extends Model
         return $this->status === InvoiceStatus::Paid || $this->balance_due <= 0;
     }
 
+    public function getPurchaserAttribute(): Family|Organization|null
+    {
+        return $this->family ?? $this->organization;
+    }
+
     /*
     |--------------------------------------------------------------------------
     | Business Logic
     |--------------------------------------------------------------------------
     */
+    public function totalAmount(): float
+    {
+        return $this->lineItems->sum('amount');
+    }
+
     public function totalPaid(): float
     {
         return $this->payments->sum('pivot.amount_applied');
     }
 
-    public function balanceDue(): float
+    public function calculateBalanceDue(): float
     {
-        return $this->total_amount - $this->totalPaid();
+        return $this->totalAmount() - $this->totalPaid();
     }
 
-    public function isPaid(): bool
+    public function recalcBalance(): void
     {
-        return $this->balanceDue() <= 0.01;
+        $this->balance_due = $this->calculateBalanceDue();
+        $this->save();
     }
 
     public function applyPayment(Payment $payment, float $amount): void
@@ -105,7 +113,7 @@ class Invoice extends Model
 
     protected function updateBalanceAndStatus(): void
     {
-        $this->balance_due = $this->balanceDue();
+        $this->balance_due = $this->calculateBalanceDue();
 
         if ($this->balance_due <= 0) {
             $this->status = InvoiceStatus::Paid;
@@ -131,15 +139,5 @@ class Invoice extends Model
         if ($amount > $payment->unappliedAmount()) {
             throw new \DomainException("Payment does not have enough unapplied funds.");
         }
-    }
-
-    /*
-    |--------------------------------------------------------------------------
-    | Convenience
-    |--------------------------------------------------------------------------
-    */
-    public function getPurchaserAttribute(): Family|Organization
-    {
-        return $this->family ?? $this->organization ?? $this->invoiceable;
     }
 }

@@ -4,6 +4,7 @@ use App\Enums\InvoiceStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 return new class extends Migration
 {
@@ -16,12 +17,19 @@ return new class extends Migration
             $table->id();
             $table->foreignId('family_id')->nullable()->constrained()->nullOnDelete();
             $table->foreignId('organization_id')->nullable()->constrained()->nullOnDelete();
-            $table->decimal('total_amount', 10, 2)->default(0);
-            $table->decimal('balance_due', 10, 2)->default(0);
             $table->string('status')->default(InvoiceStatus::Open->value);
             $table->date('due_date')->nullable();
             $table->timestamps();
         });
+
+        DB::statement(
+            'ALTER TABLE invoices
+            ADD CONSTRAINT check_family_or_org
+            CHECK (
+                (family_id IS NOT NULL AND organization_id IS NULL)
+                OR (family_id IS NULL AND organization_id IS NOT NULL)
+            )'
+        );
     }
 
     /**

@@ -45,4 +45,14 @@ class ExternalCemetery extends Model
     {
         return $this->contactCards()->first();
     }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Scopes
+    |--------------------------------------------------------------------------
+    */
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', true);
+    }
 }
