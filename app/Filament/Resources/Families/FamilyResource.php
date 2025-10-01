@@ -40,9 +40,12 @@ class FamilyResource extends Resource
             //
         ];
     }
-    public static function getEloquentQuery(): \Illuminate\Database\Eloquent\Builder
+    public static function getEloquentQuery(): Builder
     {
-        return parent::getEloquentQuery()->with('organizations.contactCards');
+        return parent::getEloquentQuery()->with([
+            'organizations.contactCards',
+            'burialRights.plot.lot.section'
+        ]);
     }
 
     public static function getPages(): array

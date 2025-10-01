@@ -1,0 +1,45 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('lots', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('internal_cemetery_id')
+                ->constrained()
+                ->cascadeOnDelete();
+            $table->foreignId('section_id')
+                ->constrained()
+                ->cascadeOnDelete();
+            $table->string('lot_number')->nullable();
+            $table->string('lot_letter')->nullable();
+            $table->string('grid_reference');
+            $table->text('notes')->nullable();
+            $table->timestamps();
+            $table->unique(['section_id', 'lot_number', 'lot_letter']);
+        });
+
+        DB::statement(
+            'ALTER TABLE lots
+            ADD CONSTRAINT check_lot_number_or_letter
+            CHECK (lot_number IS NOT NULL OR lot_letter IS NOT NULL)'
+        );
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('lots');
+    }
+};

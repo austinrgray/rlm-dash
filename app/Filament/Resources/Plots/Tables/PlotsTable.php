@@ -13,6 +13,7 @@ class PlotsTable
     public static function configure(Table $table): Table
     {
         return $table
+            ->defaultGroup('section.name')
             ->columns([
                 TextColumn::make('lot.section.name')
                     ->label('Section')

@@ -1,0 +1,48 @@
+<?php
+
+namespace App\Models\Customer;
+
+use App\Enums\Customer\FamilyRole;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class FamilyMember extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'family_id',
+        'person_id',
+        'role',
+    ];
+
+    protected $casts = [
+        'role' => FamilyRole::class,
+    ];
+
+    /*
+    |--------------------------------------------------------------------------
+    | Relationships
+    |--------------------------------------------------------------------------
+    */
+    public function family(): BelongsTo
+    {
+        return $this->belongsTo(Family::class);
+    }
+
+    public function person(): BelongsTo
+    {
+        return $this->belongsTo(Person::class);
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Accessors
+    |--------------------------------------------------------------------------
+    */
+    public function getFullNameAttribute(): string
+    {
+        return "{$this->person?->first_name} {$this->person?->last_name}";
+    }
+}

@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
             ExternalCemeterySeeder::class,
             FamilySeeder::class,
             OrganizationSeeder::class,
+            // InvoiceSeeder::class,
         ]);
     }
 }

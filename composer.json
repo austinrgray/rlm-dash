@@ -63,6 +63,11 @@
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+        ],
+        "test:refresh": [
+            "@php artisan config:clear --ansi",
+            "@php artisan migrate:fresh --seed",
+            "@php artisan test"
         ]
     },
     "extra": {

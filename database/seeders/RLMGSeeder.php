@@ -2,106 +2,151 @@
 
 namespace Database\Seeders;
 
+use App\Models\Cemetery\InternalCemetery;
+use App\Models\Cemetery\Section;
+use App\Models\Cemetery\Lot;
+use App\Models\Cemetery\Plot;
+use App\Models\Cemetery\Mausoleum\Mausoleum;
+use App\Models\Cemetery\Mausoleum\Crypt;
+use App\Models\Cemetery\Columbarium\Columbarium;
+use App\Models\Cemetery\Columbarium\Niche;
 use Illuminate\Database\Seeder;
-use App\Models\InternalCemetery;
-use App\Models\Section;
-use App\Models\Lot;
-use App\Models\Plot;
 
 class RLMGSeeder extends Seeder
 {
     public function run(): void
     {
+        $this->randomFill();
+        // $this->realisticFill();
+    }
+
+    private function randomFill(): void
+    {
         $cemetery = InternalCemetery::firstOrCreate([
             'name' => 'Rose Lawn Memorial Gardens',
         ]);
 
-        $this->createSectionWithLotsAndPlots($cemetery, 'Savior Garden', 1, 400, 6);
-        $this->createSectionWithLotsAndPlots($cemetery, 'Prayer Garden', 401, 600, 6);
-        $this->createSectionWithLotsAndPlots($cemetery, 'Stone Garden', 601, 800, 6);
-        $this->createSectionWithLotsAndPlots($cemetery, 'Devotion Garden', 801, 1200, 6);
-        $this->createSectionWithLotsAndPlots($cemetery, 'Serenity Garden', 1201, 1500, 6);
-        $this->createMausoleum($cemetery, 'Mausoleum', 42);
-        $this->createColumbarium($cemetery, 'Columbarium', 150);
+        // Garden sections with lots/plots
+        $this->seedSection($cemetery, 'Savior Garden', 1, 400);
+        $this->seedSection($cemetery, 'Prayer Garden', 401, 600);
+        $this->seedSection($cemetery, 'Stone Garden', 601, 800);
+        $this->seedSection($cemetery, 'Devotion Garden', 801, 1200);
+        $this->seedSection($cemetery, 'Serenity Garden', 1201, 1500);
+
+        // Structures
+        $this->seedMausoleum($cemetery, 'M-01', 42);
+        $this->seedColumbarium($cemetery, 'C-01', 150);
     }
 
-    private function createSectionWithLotsAndPlots($cemetery, string $sectionName, int $lotStart, int $lotEnd, int $plotsPerLot)
+    private function realisticFill(): void
     {
-        $section = Section::create([
+        // Future: import real-world data
+    }
+
+    private function seedSection(InternalCemetery $cemetery, string $name, int $start, int $end): void
+    {
+        $section = Section::firstOrCreate([
             'internal_cemetery_id' => $cemetery->id,
-            'name' => $sectionName,
+            'name'                 => $name,
         ]);
 
-        for ($lotNumber = $lotStart; $lotNumber <= $lotEnd; $lotNumber++) {
-            $lot = Lot::create([
-                'section_id' => $section->id,
-                'lot_number' => $lotNumber,
-                'max_capacity' => $plotsPerLot,
-                'available_plot_count' => $plotsPerLot,
-            ]);
-
-            for ($plotNumber = 1; $plotNumber <= $plotsPerLot; $plotNumber++) {
-                Plot::create([
-                    'lot_id' => $lot->id,
-                    'plot_number' => $plotNumber,
-                    'traditional_burials' => 0,
-                    'cremation_burials' => 0,
-                    'max_traditional_burials' => 1,
-                    'max_cremation_burials' => 1,
-                ]);
+        foreach (range($start, $end) as $lotNumber) {
+            if (mt_rand(1, 100) <= mt_rand(5, 10)) {
+                $this->seedSplitLot($cemetery, $section, $lotNumber);
+            } else {
+                $this->seedStandardLot($cemetery, $section, $lotNumber);
             }
         }
     }
 
-    private function createMausoleum($cemetery, string $sectionName, int $vaults)
+    private function seedStandardLot(InternalCemetery $cemetery, Section $section, int $lotNumber): void
     {
-        $section = Section::create([
+        $lot = Lot::factory()->create([
             'internal_cemetery_id' => $cemetery->id,
-            'name' => $sectionName,
+            'section_id'           => $section->id,
+            'lot_number'           => $lotNumber,
         ]);
 
-        $lot = Lot::create([
-            'section_id' => $section->id,
-            'lot_letter' => 'A',
-            'max_capacity' => $vaults,
-            'available_plot_count' => $vaults,
-        ]);
+        $plotCount = max(1, 6 + random_int(-1, 1));
 
-        for ($vaultNumber = 1; $vaultNumber <= $vaults; $vaultNumber++) {
-            Plot::create([
-                'lot_id' => $lot->id,
-                'plot_number' => $vaultNumber,
-                'traditional_burials' => 0,
-                'cremation_burials' => 0,
-                'max_traditional_burials' => 1,
-                'max_cremation_burials' => 0,
+        foreach (range(1, $plotCount) as $plotNumber) {
+            Plot::factory()->create([
+                'internal_cemetery_id' => $cemetery->id,
+                'section_id'           => $section->id,
+                'lot_id'               => $lot->id,
+                'plot_number'          => $plotNumber,
+                'traditional_capacity' => 1,
+                'cremation_capacity'   => 1,
             ]);
         }
     }
 
-    private function createColumbarium($cemetery, string $sectionName, int $slots)
+    private function seedSplitLot(InternalCemetery $cemetery, Section $section, int $lotNumber): void
     {
-        $section = Section::create([
+        $totalPlots = max(2, 6 + random_int(-1, 1));
+        $plotsForA  = random_int(1, $totalPlots - 1);
+        $plotsForB  = $totalPlots - $plotsForA;
+
+        $lotA = Lot::factory()->create([
             'internal_cemetery_id' => $cemetery->id,
-            'name' => $sectionName,
+            'section_id'           => $section->id,
+            'lot_number'           => $lotNumber,
+            'lot_letter'           => 'A',
         ]);
 
-        $lot = Lot::create([
-            'section_id' => $section->id,
-            'lot_letter' => 'A',
-            'max_capacity' => $slots,
-            'available_plot_count' => $slots,
-        ]);
-
-        for ($slotNumber = 1; $slotNumber <= $slots; $slotNumber++) {
-            Plot::create([
-                'lot_id' => $lot->id,
-                'plot_number' => $slotNumber,
-                'traditional_burials' => 0,
-                'cremation_burials' => 0,
-                'max_traditional_burials' => 0,
-                'max_cremation_burials' => 2,
+        foreach (range(1, $plotsForA) as $plotNumber) {
+            Plot::factory()->create([
+                'internal_cemetery_id' => $cemetery->id,
+                'section_id'           => $section->id,
+                'lot_id'               => $lotA->id,
+                'plot_number'          => $plotNumber,
+                'traditional_capacity' => 1,
+                'cremation_capacity'   => 1,
             ]);
         }
+
+        $lotB = Lot::factory()->create([
+            'internal_cemetery_id' => $cemetery->id,
+            'section_id'           => $section->id,
+            'lot_number'           => $lotNumber,
+            'lot_letter'           => 'B',
+        ]);
+
+        foreach (range(1, $plotsForB) as $plotNumber) {
+            Plot::factory()->create([
+                'internal_cemetery_id' => $cemetery->id,
+                'section_id'           => $section->id,
+                'lot_id'               => $lotB->id,
+                'plot_number'          => $plotNumber,
+                'traditional_capacity' => 1,
+                'cremation_capacity'   => 1,
+            ]);
+        }
+    }
+
+    private function seedMausoleum(InternalCemetery $cemetery, string $name, int $crypts): void
+    {
+        Mausoleum::factory()
+            ->for($cemetery, 'cemetery')
+            ->state([
+                'internal_cemetery_id' => $cemetery->id,
+                'name'           => $name,
+                'grid_reference' => 'M-01',
+            ])
+            ->withCrypts($crypts)
+            ->create();
+    }
+
+    private function seedColumbarium(InternalCemetery $cemetery, string $name, int $niches): void
+    {
+        Columbarium::factory()
+            ->for($cemetery, 'cemetery')
+            ->state([
+                'internal_cemetery_id' => $cemetery->id,
+                'name'           => $name,
+                'grid_reference' => 'C-01',
+            ])
+            ->withNiches($niches)
+            ->create();
     }
 }
